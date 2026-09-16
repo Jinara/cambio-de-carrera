@@ -74,7 +74,9 @@ Comunidades, charlas, voluntariado, cursos dictados, proyectos propios. Con qué
 | Piso mensual (lo que cubre la vida) | |
 | Objetivo mensual | |
 | Unidad (bruto o neto, moneda) | |
-| Innegociables (contrato, modalidad, horario, ubicación) | |
+| Tipo de contrato: el que necesita y el que aceptaría | |
+| Innegociables (modalidad, horario, ubicación) | |
+| Viajes: si quiere, si puede y con qué frecuencia | |
 | Qué tipo de equipo | |
 | Qué no vuelve a sacrificar | |
 

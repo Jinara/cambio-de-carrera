@@ -135,6 +135,7 @@ Con 22 avisos, "casi todos piden SQL" se puede decir. Lo del inglés se apoya en
 | Ritmo sin meses de noche | Par 7, tanda B | "¿Cómo son las temporadas altas, y quién cubre los problemas fuera de horario?" |
 | Que las ideas se prueben rápido | Par 4, por qué quiere irse | "¿Cuánto tarda una idea desde que se propone hasta que se prueba?" |
 | Contrato indefinido, híbrido en Santiago | Tanda C | Se lee en el aviso. Si no está, primera llamada |
+| Viajes dentro de Chile, como mucho una vez al mes | Tanda C | "¿Cuánto se viaja en este puesto, y a dónde?" |
 
 ### Lo que no
 

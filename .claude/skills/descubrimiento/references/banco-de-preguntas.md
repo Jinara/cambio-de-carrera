@@ -48,19 +48,21 @@ No hace falta hacerlas todas en cada trabajo. En un empleo de cuatro meses alcan
 
 **Qué se anota:** el número, contra qué se comparó, en qué período, y de dónde sale. Si no hay de dónde, va `[SIN FUENTE]`. No se descarta todavía: el paso 2 intenta encontrarle fuente.
 
-### A6. ¿Por qué te fuiste? ¿Y de verdad?
+### A6. ¿Por qué dejaste ese trabajo?
 
 **Para qué.** Es la pregunta más importante de la tanda. El motivo real de salida dice qué no hay que volver a buscar, y el CV puede llevar a la persona derecho a otro trabajo igual.
 
-**Repreguntar si:** la respuesta es la versión de entrevista ("buscaba nuevos desafíos"). Se pregunta de frente, sin rodeos: *"¿Y qué es lo que no te gustaba?"*
+**Repreguntar si:** la respuesta suena a entrevista ("buscaba nuevos desafíos"). Se pregunta de frente, sin rodeos: *"¿Qué era lo que no te gustaba de ese trabajo?"*
 
 **Qué se anota:** las dos versiones. La verdadera, literal. Y más adelante, en el cierre, la versión decible: una frase que sea igual de verdadera y que se pueda decir en una entrevista.
 
-### A7. ¿Hablabas con clientes o con usuarios?
+### A7. ¿Hablabas con clientes o con usuarios? Cuéntame anécdotas.
 
 **Para qué.** El contacto directo con clientes aparece en casi todas las carreras y casi nunca está escrito. Es requisito literal de muchos avisos de producto, preventa y operaciones.
 
-**Repreguntar si:** dice "a veces". Se pide un caso: a quién, dónde, para qué.
+**Qué se busca:** anécdotas concretas, no una descripción del puesto. A quién, dónde, qué pasó y qué cambió después. Una anécdota con detalle es la materia prima del banco de historias del paso 5.
+
+**Repreguntar si:** dice "a veces" o "sí, bastante" sin un caso. Se pide uno: *"¿Te acuerdas de una vez en particular?"*
 
 ### A8. ¿Te ascendieron? ¿Cuánto tardaron?
 
@@ -120,15 +122,27 @@ Solo si hay un hueco. **Para qué:** un hueco explicado en una frase no es un pr
 
 ⚠️ **Estos números quedan en `mi-cerebro/`.** No van a ningún lado más. Se usan en el paso 3.
 
-### C2. ¿Qué es innegociable? Relación laboral, modalidad, horario, ubicación.
+### C2. ¿Qué tipo de contrato necesitas, y cuál aceptarías?
 
-**Para qué.** Si la persona necesita un contrato formal (por crédito, por salud, por visa), eso descarta la mitad de los avisos remotos. Mejor saberlo antes.
+**Para qué.** Relación de dependencia, contrato por proyecto, freelance o contractor para una empresa de otro país, medio tiempo. Cada uno cambia el sueldo real (aportes, vacaciones, cobertura de salud) y cambia qué avisos sirven. Si la persona necesita un contrato formal, por un crédito, por su salud o por una visa, eso descarta buena parte de los avisos remotos, y conviene saberlo antes.
 
-### C3. ¿Con qué tipo de equipo quieres trabajar?
+**Qué se anota:** lo que necesita y lo que aceptaría, por separado. "Necesito relación de dependencia" y "aceptaría contractor si paga en dólares" son dos respuestas distintas.
+
+### C3. ¿Qué más es innegociable? Modalidad, horario, ubicación.
+
+**Para qué.** Presencial, híbrido o remoto, y desde dónde. El horario, si hay algo fijo en la vida de la persona (cuidar a alguien, estudiar). Se anota lo innegociable aparte de lo que solo se prefiere.
+
+### C4. ¿Quieres viajar por trabajo? ¿Puedes? ¿Con qué frecuencia?
+
+**Para qué.** Muchos avisos piden "disponibilidad para viajar" sin decir cuánto. Querer y poder son dos respuestas distintas: alguien puede tener ganas de viajar y no poder, por la familia, por una visa o por la salud.
+
+**Qué se anota:** si quiere, si puede, y el máximo con número ("una vez al mes, tres días como mucho"). Y si hace falta visa para algún destino. Va a los criterios de selección del paso 3, y en las entrevistas se pregunta cuánto se viaja de verdad en el puesto.
+
+### C5. ¿Con qué tipo de equipo quieres trabajar?
 
 **Para qué.** Muchas salidas de la tanda A fueron por la gente. Si eso se repite, el equipo es un criterio de selección, no un detalle, y se pregunta en cada entrevista con el mismo peso que el sueldo.
 
-### C4. ¿Qué no estás dispuesta o dispuesto a volver a sacrificar?
+### C6. ¿Qué no estás dispuesta o dispuesto a volver a sacrificar?
 
 **Para qué.** Salud, tiempo con la familia, fines de semana. Si aparece con una historia detrás (un trabajo donde se quemó), va como criterio duro al paso 3, con las preguntas concretas que hay que hacer en las entrevistas para detectarlo.
 

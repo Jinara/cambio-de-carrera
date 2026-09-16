@@ -128,7 +128,9 @@ Diseñar la primera versión de la alerta desde la oficina, sin hablar con ning�
 | Piso mensual (lo que cubre la vida) | `[MONTO]` líquido |
 | Objetivo mensual | `[MONTO]` líquido |
 | Unidad | Pesos chilenos, líquido (lo que llega a la cuenta) |
-| Innegociables | Contrato indefinido. Híbrido en Santiago, máximo tres días en oficina. |
+| Tipo de contrato | Necesita contrato indefinido. No aceptaría freelance: *"Necesito la cobertura de salud."* |
+| Innegociables | Híbrido en Santiago, máximo tres días en oficina. |
+| Viajes | Quiere y puede viajar dentro de Chile, como mucho una vez al mes. Fuera de Chile, por ahora no. |
 | Qué tipo de equipo | *"Con alguien de producto que ya lo haya hecho, para aprender."* |
 | Qué no vuelve a sacrificar | *"Las capacitaciones a las nueve de la noche. Dos meses fue suficiente."* |
 

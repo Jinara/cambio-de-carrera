@@ -39,7 +39,7 @@ El banco de preguntas, en orden y con qué buscar en cada una, está en `referen
 
 **Tanda B, energía.** Cuándo tuvo más energía, qué no quiere volver a hacer nunca, qué le costó más de lo previsto. Esta tanda es la que define el paso 3, y casi siempre contradice algo de lo que la persona dijo en la tanda A.
 
-**Tanda C, condiciones.** Plata, horarios, salud, equipo. Lo que necesita para que un trabajo le sirva, dicho antes de enamorarse de un aviso.
+**Tanda C, condiciones.** Plata, tipo de contrato, modalidad, viajes, equipo y salud. Lo que necesita para que un trabajo le sirva, dicho antes de enamorarse de un aviso.
 
 ## Cuando aparece un hallazgo
 
