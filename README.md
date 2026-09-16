@@ -24,7 +24,7 @@ Y adentro de Claude Code, una sola cosa:
 /empezar
 ```
 
-Con Codex es igual: abres `codex` en la carpeta y escribes `empezar`, sin la barra.
+Con Codex, creas un proyecto con la carpeta del repo y escribes `empezar`, sin la barra. Cómo bajar Codex y crear el proyecto está en [`EMPEZAR.md`](EMPEZAR.md#si-usas-codex).
 
 Para generar el CV en PDF hace falta Python 3 y Chrome (o Chromium, Edge o Brave). Para el simulacro hablado, `whisper-cli` y `ffmpeg`. Qué juntar antes de arrancar y cómo instalar todo está en [`EMPEZAR.md`](EMPEZAR.md).
 

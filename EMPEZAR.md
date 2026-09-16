@@ -59,11 +59,24 @@ En Linux, `whisper-cli` se compila desde [whisper.cpp](https://github.com/ggerga
 
 ## Si usas Codex
 
-Funciona con Codex en la terminal, en la extensión para el editor o en la app de escritorio de ChatGPT, siempre con la carpeta del repo abierta en tu computadora.
+Funciona con Codex en la app de escritorio de ChatGPT, en la terminal o en la extensión para el editor, siempre con la carpeta del repo en tu computadora.
 
 **No lo uses con Codex en la nube**, las tareas que corren en chatgpt.com. Ahí tu `mi-cerebro/`, con tu sueldo y lo que salió mal, quedaría en un servidor y no en tu computadora, y tus audios tampoco se transcribirían en tu máquina.
 
-Para instalarlo en la terminal:
+### Con la app de escritorio de ChatGPT
+
+1. **Descarga la app** desde [la página oficial de ChatGPT](https://learn.chatgpt.com/docs/app). Hay versión para Mac, Windows y Linux, y Codex viene adentro. Entras con tu cuenta de ChatGPT.
+2. **Baja el repo a tu computadora.** En la terminal:
+   ```bash
+   git clone https://github.com/Jinara/cambio-de-carrera
+   ```
+   Si no usas la terminal y estás en Mac, en la página del repo en GitHub le das clic a **Code**, después a **Download ZIP**, y lo descomprimes. En Windows, usa la terminal (más abajo está por qué).
+3. **En Codex, crea un proyecto con esa carpeta.** Al crear el proyecto, elige usar una carpeta que ya existe y selecciona `cambio-de-carrera`. Tiene que ser esa carpeta y no la de arriba: si Codex queda en otra, no encuentra las reglas del método.
+4. **Escribe `empezar`**, sin la barra.
+
+### Con la terminal
+
+Para instalarlo:
 
 ```bash
 curl -fsSL https://chatgpt.com/codex/install.sh | sh
@@ -75,17 +88,29 @@ Y para arrancar, adentro de la carpeta del repo:
 codex --search
 ```
 
-La primera vez te pide entrar con tu cuenta de ChatGPT. `--search` le permite buscar en la web, que hace falta para investigar las empresas en el paso 6.
+La primera vez te pide entrar con tu cuenta de ChatGPT. `--search` le permite buscar en la web, que hace falta para investigar las empresas en el paso 6. Después escribes `empezar`, sin la barra.
 
-Después escribes `empezar`, sin la barra. Lo demás funciona igual que en Claude Code, con tres diferencias:
+### Si no arranca
+
+Si Codex contesta algo genérico en vez de empezar el método, pégale esto:
+
+```
+Lee el archivo AGENTS.md de esta carpeta y después .claude/commands/empezar.md. Sigue las instrucciones de empezar.md paso a paso, empezando por el chequeo de privacidad. Las skills del método están en .agents/skills: cuando un paso diga que uses una skill, lee su SKILL.md y sus references antes de seguir.
+```
+
+Si tampoco así, pregúntale en qué carpeta está trabajando. Si no es `cambio-de-carrera`, el proyecto quedó en otra carpeta y hay que crearlo de nuevo.
+
+### Lo que cambia respecto de Claude Code
 
 | En Claude Code | En Codex |
 |---|---|
-| `/empezar` | `empezar` |
-| Las skills se usan solas o nombrándolas | Igual, o con `$descubrimiento`, `$simulacro`, etc. `/skills` las lista. En la app de escritorio de ChatGPT, con `@` |
-| Pide permiso antes de correr un script | Igual. Para cambiar cuándo pregunta, `/permissions` |
+| `/empezar` | `empezar`, sin la barra. Con la barra, Codex lo toma como uno de sus propios comandos |
+| Las skills se usan solas o nombrándolas | Igual, o con `$descubrimiento`, `$simulacro`, etc. En la terminal, `/skills` las lista. En la app, con `@` |
+| Pide permiso antes de correr un script | Igual. En la terminal, `/permissions` cambia cuándo pregunta |
 
-**En Windows**, Codex encuentra las skills a través de un enlace (`.agents/skills`), y git en Windows no siempre crea enlaces. Clona con `git clone -c core.symlinks=true https://github.com/Jinara/cambio-de-carrera`, o usa WSL.
+### En Windows
+
+Codex encuentra las skills a través de un enlace (`.agents/skills`), y git en Windows no siempre crea enlaces. Clona con `git clone -c core.symlinks=true https://github.com/Jinara/cambio-de-carrera`, o usa WSL. Por lo mismo, en Windows no sirve bajar el ZIP.
 
 ## El primer día
 
@@ -99,6 +124,6 @@ claude
 /empezar
 ```
 
-Con Codex, `codex --search` en vez de `claude`, y `empezar` sin la barra.
+Con Codex, en vez de `claude` creas un proyecto con la carpeta del repo (o abres `codex --search` en la terminal), y escribes `empezar` sin la barra.
 
 Y contesta. Si en algún momento quieres ver cómo queda un archivo terminado, está en `ejemplo/`.
