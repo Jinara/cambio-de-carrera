@@ -37,7 +37,7 @@ El banco de preguntas, en orden y con qué buscar en cada una, está en `referen
 
 **Tanda A, trabajo por trabajo.** Del más reciente al más viejo. Por cada uno, las preguntas del bloque A del banco. La primera pasada busca fechas, tamaño, decisiones propias y por qué se fue. Los detalles finos se completan después.
 
-**Tanda B, energía.** Cuándo tuvo más energía, qué no quiere volver a hacer nunca, qué le costó más de lo previsto. Esta tanda es la que define el paso 3, y casi siempre contradice algo de lo que la persona dijo en la tanda A.
+**Tanda B, energía.** Cuándo tuvo más energía, qué no quiere volver a hacer nunca, qué le costó más de lo previsto, y al final cómo se imagina su trabajo ideal y un día ideal de trabajo. Esta tanda es la que define el paso 3, y casi siempre contradice algo de lo que la persona dijo en la tanda A.
 
 **Tanda C, condiciones.** Plata, tipo de contrato, modalidad, viajes, equipo y salud. Lo que necesita para que un trabajo le sirva, dicho antes de enamorarse de un aviso.
 

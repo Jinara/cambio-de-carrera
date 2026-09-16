@@ -4,6 +4,8 @@
 
 **Lo que decía querer antes del ejercicio:** *"Product Manager en una empresa de tecnología grande, de las que tienen app."*
 
+**Su día de trabajo ideal, según el descubrimiento:** números del producto en la mañana, una reunión con diseño, y en la tarde hablar con usuarios o ir a ver cómo lo usan.
+
 **Los 22 avisos, por tipo** (Toffy trajo 17 de lo que le interesaba y 5 de lo que creía que no):
 
 | Tipo de aviso | Cantidad |
@@ -44,7 +46,7 @@
 ### Hallazgos
 
 1. **Lo que decía querer perdió los tres pares en que apareció** (4, 5 y 8). Ninguno de sus lunes elegidos salió de un aviso de Product Manager de app en una empresa grande de tecnología.
-2. **Lo que eligió es producto para gente que opera algo físico** (pares 3 y 8), en empresas de unos cientos de personas (par 4), donde el número es de uso y no de ventas (par 5).
+2. **Lo que eligió es producto para gente que opera algo físico** (pares 3 y 8), en empresas de unos cientos de personas (par 4), donde el número es de uso y no de ventas (par 5). Y se parece mucho más a su día ideal del descubrimiento que el puesto que nombró: la tarde con usuarios está en los pares 3 y 8.
 3. **Quiere decidir, pero sin soltar los datos todavía, y al lado de alguien que sepa más** (pares 1, 2 y 6). Eso apunta a Product Analyst o Product Owner antes que a Product Manager.
 
 ### Tensiones abiertas

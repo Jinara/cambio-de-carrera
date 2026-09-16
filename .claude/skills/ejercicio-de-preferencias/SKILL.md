@@ -42,7 +42,7 @@ Las instrucciones completas están en `references/como-armar-los-pares.md`. En c
 ## Cuando termina el octavo par
 
 1. **Revela de dónde salió cada lunes.** Una tabla: par, qué eligió, de qué aviso salía el lado elegido y el descartado.
-2. **Compara con lo que decía querer.** En el descubrimiento dijo un título. ¿Cuántos de los lunes elegidos salieron de avisos de ese título?
+2. **Compara con lo que decía querer.** En el descubrimiento describió su trabajo ideal y un día ideal de trabajo. ¿Cuántos de los lunes elegidos salieron de avisos de ese puesto? ¿Y se parecen los lunes elegidos a su día ideal? Muchas veces el día coincide con lo que eligió y el título no.
 3. **Escribe los hallazgos**, con el par que sostiene cada uno. Máximo tres. Se muestran antes de escribirlos (regla 5).
 4. **Nombra las tensiones.** Si dos elecciones chocan entre sí (eligió operación física y también horario estable), se dice. No se fuerza una respuesta: una tensión abierta y escrita es mejor que una decisión falsa.
 

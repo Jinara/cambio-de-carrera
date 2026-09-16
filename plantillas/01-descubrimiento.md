@@ -63,6 +63,10 @@ Comunidades, charlas, voluntariado, cursos dictados, proyectos propios. Con qué
 
 ### Un error propio, qué costó y qué haría distinto
 
+### Cómo se imagina su trabajo ideal (literal)
+
+### Cómo sería un día de trabajo ideal, de la mañana a la tarde (literal)
+
 ---
 
 ## Tanda C · Condiciones

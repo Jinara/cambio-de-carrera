@@ -117,6 +117,16 @@ TI propuso hacer una aplicación para los jefes de local. Dijo que no: *"Lo que 
 
 Diseñar la primera versión de la alerta desde la oficina, sin hablar con ningún jefe de local. Costó tres semanas de un piloto de veinte, con 11% de alertas atendidas. *"Hoy iría al local antes de escribir la regla."*
 
+### Cómo se imagina su trabajo ideal
+
+*"Product Manager en una empresa de tecnología grande, de las que tienen app."* Repreguntando qué haría ahí: *"Decidir qué se construye y ver que la gente lo use."*
+
+### Cómo sería un día de trabajo ideal
+
+*"Llego a las nueve y miro cómo van los números del producto. En la mañana tengo una reunión con diseño para decidir algo. En la tarde hablo con usuarios, o voy a ver cómo lo usan. Me voy a las seis."*
+
+**Lo que se le mostró:** en ese día no hay nada que necesite una empresa grande de tecnología. Y la tarde es lo mismo que hacía en los locales durante el piloto, que es su primer momento de energía. Queda anotado para el paso 3.
+
 ---
 
 ## Tanda C · Condiciones

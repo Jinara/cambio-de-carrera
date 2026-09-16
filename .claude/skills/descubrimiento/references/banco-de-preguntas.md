@@ -112,6 +112,22 @@ Solo si hay un hueco. **Para qué:** un hueco explicado en una frase no es un pr
 
 **Repreguntar si:** el error está formulado como virtud ("soy muy perfeccionista") o como culpa de otro. También si la persona se castiga con un rasgo de carácter ("soy muy desordenada", "no sé poner límites"): casi siempre el hecho muestra un error de criterio concreto, que se puede nombrar y corregir, y que es mucho más útil que un defecto de personalidad.
 
+### B7. ¿Cómo te imaginas tu trabajo ideal?
+
+**Para qué.** Es lo que la persona cree que quiere, dicho con sus palabras: el puesto, el tipo de empresa, qué haría ahí. Se anota literal y sin corregir, porque el paso 3 lo pone a prueba contra avisos reales, y la distancia entre lo que dijo acá y lo que elige allá suele ser el hallazgo más grande de todo el método.
+
+**Repreguntar si:** la respuesta es solo un título ("Product Manager"). Se pide qué haría en ese puesto: *"¿Y qué haces ahí? ¿Con quién trabajas?"*
+
+**Cuándo se hace:** al final de la tanda, después de los momentos de energía. Si se pregunta al principio, la persona describe el puesto que cree que debería querer.
+
+### B8. ¿Cómo sería un día de trabajo ideal, de la mañana a la tarde?
+
+**Para qué.** Baja el trabajo ideal a cosas concretas. Un título se idealiza fácil, y un día con horarios, personas y tareas cuesta mucho más idealizarlo.
+
+**Qué se busca:** a qué hora empieza, dónde está, con quién habla, qué hace concretamente, cuánto de ese día se le va en reuniones y a qué hora termina.
+
+**Qué se hace con la respuesta:** se compara con B7 y con los momentos de energía de B1. Si en el día ideal no aparece ninguna tarea del puesto que dijo querer, o si aparecen justo las cosas de sus momentos de energía, se le muestra. El paso 3 usa este día para contrastarlo con los lunes que elija.
+
 ---
 
 ## Tanda C · Condiciones

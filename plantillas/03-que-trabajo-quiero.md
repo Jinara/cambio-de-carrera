@@ -2,7 +2,9 @@
 
 **Fecha:** [fecha] · **Avisos usados:** [cantidad], guardados en `mi-cerebro/avisos/`
 
-**Lo que decía querer antes del ejercicio:** "[literal, del descubrimiento]"
+**Lo que decía querer antes del ejercicio:** "[su trabajo ideal, literal, del descubrimiento]"
+
+**Su día de trabajo ideal:** "[literal, del descubrimiento]"
 
 ---
 
