@@ -1,0 +1,18 @@
+==============================================
+ARCHIVO:  lumbrera-p1a.m4a
+DURACION: 94 segundos
+----------------------------------------------
+Hola, bueno, yo soy ingeniera comercial, salí de la universidad en 2016 y mi primer trabajo fue en una distribuidora de alimentos, donde hacía el cierre mensual de ventas de tres regiones, que era un trabajo bastante manual, todos los meses lo mismo, y ahí aprendí mucho de Excel y de cómo funciona una operación por dentro. Después me fui a una cadena de farmacias que tiene como 200 locales, primero en abastecimiento y después como analista senior de operaciones. Y ahí lo que más me gustó fue un piloto que hicimos de alertas de reposición en doce locales, donde yo diseñé la regla, y bueno, la primera versión no funcionó mucho porque llegaban muchas alertas, entonces fui a los locales, hablé con los jefes de local y cambiamos la regla, y al final los quiebres bajaron del 9 al 6%. Y eso después se desplegó a toda la cadena. Y bueno, ahora estoy buscando un rol de producto, porque es lo que más me gusta, estar con los usuarios, entender qué les pasa, y creo que en Lumbrera podría aportar mucho con mi experiencia en retail. Y bueno, eso.
+
+==============================================
+ARCHIVO:  lumbrera-p1b.m4a
+DURACION: 71 segundos
+----------------------------------------------
+Llevo nueve años en operaciones, los últimos siete en una cadena de farmacias de 180 locales. Lo que más me gustó de todo ese tiempo fue un piloto de alertas de reposición en doce locales. La primera versión no la miraba nadie, porque llegaban demasiadas alertas y a la hora equivocada, así que fui a cuatro locales, entendí qué pasaba y la cambié. Los quiebres de stock bajaron de 9,1% a 6,4%, y la regla después se desplegó a toda la cadena. Ahora quiero hacer ese trabajo todos los días, en un equipo de producto. Y además, según el subgerente, con eso nos ahorramos como 300 millones de pesos, que es harto para la cadena.
+
+==============================================
+ARCHIVO:  lumbrera-p1c.m4a
+DURACION: 63 segundos
+----------------------------------------------
+Llevo nueve años en operaciones, los últimos siete en una cadena de farmacias de ciento ochenta locales. Lo que más me gustó fue un piloto de alertas de reposición en doce locales. La primera versión no la miraba nadie. Yo era la que se iba al local a preguntar por qué, y ahí entendí que llegaban demasiadas y tarde, así que la cambié. Los quiebres de stock bajaron de 9,1% a 6,4%. Ahora quiero hacer ese trabajo todos los días, en un equipo de producto. Uf, esa me salió más natural.
+

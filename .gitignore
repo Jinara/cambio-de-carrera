@@ -1,0 +1,25 @@
+# Todo lo de la persona que usa el repo
+mi-cerebro/*
+!mi-cerebro/LEEME.md
+
+# Audios y transcripciones
+herramientas/audios/
+simulacros/
+*.m4a
+*.mp3
+*.wav
+*.caf
+
+# PDF y DOCX generados (también los del ejemplo)
+build/
+
+# Configuración local de cada máquina
+.claude/settings.local.json
+.obsidian/
+.vscode/
+.idea/
+.env
+
+.DS_Store
+__pycache__/
+*.pyc

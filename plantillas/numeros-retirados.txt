@@ -1,0 +1,9 @@
+# Números retirados: si alguno aparece en algo que sale hacia afuera, está mal.
+#
+# Lo leen herramientas/generar-cv.py (se niega a generar) y herramientas/chequear.py.
+#
+# Una línea por número: el patrón (expresión regular, sin distinguir mayúsculas), un TABULADOR,
+# y qué decir en su lugar. Las líneas que empiezan con # se ignoran.
+#
+# Ejemplo:
+# 300 millones	Sin fuente. Usar la baja de quiebres del piloto: 9,1% a 6,4% en 12 locales.

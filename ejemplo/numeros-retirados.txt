@@ -1,0 +1,7 @@
+# Números retirados de Toffy. Si alguno aparece en algo que sale hacia afuera, está mal.
+#
+# Una línea por número: patrón, TABULADOR, qué decir en su lugar.
+300 millones	Sin documento: lo dijo un subgerente en una reunión. Usar la baja de quiebres del piloto: 9,1% a 6,4% en 12 locales.
+mentora desde	Fue una sola cohorte. Decir: mentora en una cohorte, 2022.
+(tres|3) d[ií]as a medio d[ií]a	La evaluación 2023 confirma la automatización, no la magnitud. Decir: automaticé el reporte de cierre mensual.
+(como )?200 locales	Son 180 locales (memoria anual 2025). Salió en el simulacro del 16-sep.
