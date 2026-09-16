@@ -7,7 +7,7 @@ description: Paso 6 del método. Cuando llega una entrevista, lee el correo de q
 
 El resultado es `mi-cerebro/entrevistas/<empresa>/brief.md`. Uno por empresa. Si la empresa tiene varias rondas, el mismo archivo crece con una sección por ronda.
 
-Lee `CLAUDE.md` antes de empezar.
+Lee `AGENTS.md` antes de empezar.
 
 ## Lo que hace falta
 

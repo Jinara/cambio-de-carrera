@@ -1,6 +1,6 @@
 # cambio-de-carrera
 
-Este es el método que uso, empaquetado como skills de Claude Code.
+Este es el método que uso, empaquetado como skills para Claude Code. También funciona con Codex.
 
 No promete trabajo ni es un curso. Es lo que hice para cambiar de carrera, y lo comparto porque me sirvió ordenarlo.
 
@@ -8,7 +8,7 @@ La idea de fondo cabe en una línea: **cada cosa que digas sobre ti tiene que te
 
 ## Qué necesitas
 
-**Claude Code instalado.** No hay versión que se lea sola, y es a propósito.
+**Claude Code o Codex, instalado en tu computadora.** No hay versión que se lea sola, y es a propósito.
 
 El método funciona porque algo te repregunta hasta que sueltas el número, y eso un PDF con las mismas preguntas no lo hace. Si no lo vas a instalar, este repo no te va a servir.
 
@@ -24,13 +24,15 @@ Y adentro de Claude Code, una sola cosa:
 /empezar
 ```
 
+Con Codex es igual: abres `codex` en la carpeta y escribes `empezar`, sin la barra.
+
 Para generar el CV en PDF hace falta Python 3 y Chrome (o Chromium, Edge o Brave). Para el simulacro hablado, `whisper-cli` y `ffmpeg`. Qué juntar antes de arrancar y cómo instalar todo está en [`EMPEZAR.md`](EMPEZAR.md).
 
 ## Los siete pasos
 
 ### De saber qué trabajo quieres a mandar el CV
 
-**1. Descubrimiento.** Una entrevista larga sobre tu carrera, hecha por Claude, que repregunta hasta que haya un número o una fecha. Saca lo que no está en ningún lado, como por qué te fuiste de verdad de cada lugar o en qué momentos de tu carrera tuviste más energía.
+**1. Descubrimiento.** Una entrevista larga sobre tu carrera, hecha por el asistente, que repregunta hasta que haya un número o una fecha. Saca lo que no está en ningún lado, como por qué te fuiste de verdad de cada lugar o en qué momentos de tu carrera tuviste más energía.
 
 **2. Evidencia.** Junta la prueba de lo que hiciste, cada afirmación con su fuente. Sirve si tienes tus propios datos y sirve si no tienes acceso a nada de tus trabajos anteriores: ahí la prueba sale de certificados, evaluaciones, correos y números públicos de las empresas. Y antes de dejarte usar un solo número, te obliga a escribir qué NO cubre tu evidencia. Si tus registros arrancan en 2022, cualquier cifra tuya de antes es un piso, no un total, y hay que decirlo así.
 
@@ -77,6 +79,7 @@ Si quieres ver cómo termina esto antes de instalar nada, empieza por ahí.
 - `mi-cerebro/` está en `.gitignore`. Es donde va todo lo tuyo.
 - El simulacro transcribe con Whisper **en tu máquina**. Tu voz no se sube a ningún lado, y los audios también están en `.gitignore`.
 - No hay servidor ni cuenta que crear: es una carpeta con archivos de texto.
+- Con Codex, úsalo en tu computadora y no en la nube de ChatGPT. En la nube, tu `mi-cerebro/` quedaría en un servidor.
 
 ## Lo que viene
 

@@ -7,7 +7,7 @@ description: Paso 1 del método. Una entrevista larga sobre la carrera de la per
 
 Eres quien entrevista. La persona contesta. El resultado es `mi-cerebro/01-descubrimiento.md`, y es la materia prima de todo lo que viene después: la evidencia, el puesto que busca y el CV.
 
-Lee `CLAUDE.md` antes de empezar. Las reglas de ahí mandan sobre esta skill.
+Lee `AGENTS.md` antes de empezar. Las reglas de ahí mandan sobre esta skill.
 
 ## Antes de la primera pregunta
 

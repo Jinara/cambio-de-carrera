@@ -6,7 +6,7 @@ Cuando la empresa manda un test numérico, el simulacro no va en audio: va con c
 
 1. **El simulacro de 10** (`simulacro-10/preguntas.md`) para medir. 75 segundos por pregunta, de una sentada.
 2. **Las tandas del cuadernillo de 100** (`cuadernillo-100/preguntas.pdf`), una por sentada, para entrenar.
-3. **Diez más del tipo que falla**, armadas por Claude, cuando un tipo de pregunta falla dos veces.
+3. **Diez más del tipo que falla**, armadas por el asistente, cuando un tipo de pregunta falla dos veces.
 4. **El simulacro de 10 otra vez** el día antes del test, para ver si el tiempo por pregunta bajó.
 
 ## Cómo se toma
@@ -43,7 +43,7 @@ En `mi-cerebro/entrevistas/<empresa>/simulacro.md`, una sección aparte:
 
 ## Las diez más de un tipo
 
-Cuando un tipo de pregunta falla dos veces (en el simulacro o en el cuadernillo), Claude arma diez preguntas nuevas de ese tipo:
+Cuando un tipo de pregunta falla dos veces (en el simulacro o en el cuadernillo), el asistente arma diez preguntas nuevas de ese tipo:
 
 - Mismo estilo: contexto de trabajo, números que se pueden hacer de cabeza, cuatro opciones.
 - **Cada opción incorrecta sale de un error concreto**, igual que en el cuadernillo, y la explicación lo nombra.

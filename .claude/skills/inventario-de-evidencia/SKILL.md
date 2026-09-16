@@ -7,7 +7,7 @@ description: Paso 2 del método. Junta la prueba de lo que la persona hizo, cada
 
 El resultado es `mi-cerebro/02-evidencia.md`. Es lo único de donde el CV puede sacar un número o una afirmación. Si algo no está acá con su fuente, no va al CV.
 
-Lee `CLAUDE.md` antes de empezar. Las reglas 1, 2 y 4 son las de este paso.
+Lee `AGENTS.md` antes de empezar. Las reglas 1, 2 y 4 son las de este paso.
 
 ## Punto de partida
 

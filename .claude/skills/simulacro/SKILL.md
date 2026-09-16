@@ -1,6 +1,6 @@
 ---
 name: simulacro
-description: Paso 7 del método. Entrenamiento para una entrevista, hablado o con cronómetro - Claude hace una pregunta con los segundos objetivo declarados, la persona lee un papel de pocos renglones, graba su respuesta en audio, se transcribe en su máquina, y el feedback compara las tomas contra el reloj, contra su propia evidencia y contra las señales de texto recitado. Se regraba hasta que el arco se sostiene sin el papel. Si viene un test numérico, toma el simulacro de 10 preguntas o una tanda del cuadernillo de 100, corrige separando errores de lectura, de cuenta y de tiempo, y arma más preguntas del tipo que falla. Usar cuando la persona dice "hagamos un simulacro", "practiquemos la entrevista", "te mando un audio", "grabé mi respuesta", "escucha esta toma", "me mandaron un test numérico", "quiero practicar matemáticas", "tómame el simulacro numérico", o cuando el brief de entrevista ya está y falta practicar.
+description: Paso 7 del método. Entrenamiento para una entrevista, hablado o con cronómetro - el asistente hace una pregunta con los segundos objetivo declarados, la persona lee un papel de pocos renglones, graba su respuesta en audio, se transcribe en su máquina, y el feedback compara las tomas contra el reloj, contra su propia evidencia y contra las señales de texto recitado. Se regraba hasta que el arco se sostiene sin el papel. Si viene un test numérico, toma el simulacro de 10 preguntas o una tanda del cuadernillo de 100, corrige separando errores de lectura, de cuenta y de tiempo, y arma más preguntas del tipo que falla. Usar cuando la persona dice "hagamos un simulacro", "practiquemos la entrevista", "te mando un audio", "grabé mi respuesta", "escucha esta toma", "me mandaron un test numérico", "quiero practicar matemáticas", "tómame el simulacro numérico", o cuando el brief de entrevista ya está y falta practicar.
 ---
 
 # Simulacro
@@ -12,7 +12,7 @@ Todo va a `mi-cerebro/entrevistas/<empresa>/`:
 
 Los audios van a `herramientas/audios/`, que está en `.gitignore`.
 
-Lee `CLAUDE.md` antes de empezar. La regla 8 (nunca memorizar) es la de este paso.
+Lee `AGENTS.md` antes de empezar. La regla 8 (nunca memorizar) es la de este paso.
 
 ## Por qué hablado
 

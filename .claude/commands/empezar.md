@@ -4,7 +4,7 @@ description: La única puerta del método. Mira qué hay en mi-cerebro/ y lleva 
 
 # /empezar
 
-Lee `CLAUDE.md` primero. Después haz esto, en orden.
+Lee `AGENTS.md` primero. Después haz esto, en orden.
 
 ## 1. Chequeo de privacidad (solo la primera vez)
 

@@ -7,7 +7,7 @@ description: Paso 3 del método, qué trabajo quiere de verdad la persona. Arma 
 
 El resultado es `mi-cerebro/03-que-trabajo-quiero.md`. De ahí salen las variantes del CV del paso 4 y el criterio para decir que no a un aviso.
 
-Lee `CLAUDE.md` antes de empezar.
+Lee `AGENTS.md` antes de empezar.
 
 ## La idea
 

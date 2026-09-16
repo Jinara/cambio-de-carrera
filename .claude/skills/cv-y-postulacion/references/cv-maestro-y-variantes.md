@@ -84,7 +84,7 @@ Los detectores de "texto escrito por IA" se equivocan mucho, sobre todo con gent
 
 Así que la defensa es la misma regla de siempre: especificidad. Una línea con un número verificado y un verbo de decisión no suena a nadie más.
 
-Y las de `CLAUDE.md`: nada de raya larga, nada de ritmo de tres, nada de "no es X, es Y".
+Y las de `AGENTS.md`: nada de raya larga, nada de ritmo de tres, nada de "no es X, es Y".
 
 ## Antes de generar, la lista
 

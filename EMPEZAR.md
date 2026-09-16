@@ -4,7 +4,7 @@
 
 | Qué | Para qué | Obligatorio |
 |---|---|---|
-| [Claude Code](https://claude.com/claude-code) | Todo el método | Sí |
+| [Claude Code](https://claude.com/claude-code) o [Codex](https://learn.chatgpt.com/docs/codex/cli) | Todo el método | Uno de los dos |
 | Python 3 | Generar el CV y revisar textos | Para el paso 4 |
 | Chrome, Chromium, Edge o Brave | Pasar el CV a PDF | Para el paso 4 |
 | pandoc | El CV en DOCX (en Mac no hace falta: se usa `textutil`) | No |
@@ -51,11 +51,41 @@ curl -L -o ~/.local/share/whisper-models/ggml-large-v3-turbo-q5_0.bin \
   https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3-turbo-q5_0.bin
 ```
 
-Graba con la app de notas de voz, deja los audios en `herramientas/audios/` y dile a Claude que los transcriba. Corre `herramientas/transcribir.sh` en tu máquina, sin internet. Los audios están en `.gitignore`.
+Graba con la app de notas de voz, deja los audios en `herramientas/audios/` y dile al asistente que los transcriba. Corre `herramientas/transcribir.sh` en tu máquina, sin internet. Los audios están en `.gitignore`.
 
 Si todavía no instalaste Whisper, en el simulacro puedes pegar la transcripción automática de tu teléfono. Se pierde la duración de cada toma, que es una de las cosas que se miran.
 
 En Linux, `whisper-cli` se compila desde [whisper.cpp](https://github.com/ggerganov/whisper.cpp).
+
+## Si usas Codex
+
+Funciona con Codex en la terminal, en la extensión para el editor o en la app de escritorio de ChatGPT, siempre con la carpeta del repo abierta en tu computadora.
+
+**No lo uses con Codex en la nube**, las tareas que corren en chatgpt.com. Ahí tu `mi-cerebro/`, con tu sueldo y lo que salió mal, quedaría en un servidor y no en tu computadora, y tus audios tampoco se transcribirían en tu máquina.
+
+Para instalarlo en la terminal:
+
+```bash
+curl -fsSL https://chatgpt.com/codex/install.sh | sh
+```
+
+Y para arrancar, adentro de la carpeta del repo:
+
+```bash
+codex --search
+```
+
+La primera vez te pide entrar con tu cuenta de ChatGPT. `--search` le permite buscar en la web, que hace falta para investigar las empresas en el paso 6.
+
+Después escribes `empezar`, sin la barra. Lo demás funciona igual que en Claude Code, con tres diferencias:
+
+| En Claude Code | En Codex |
+|---|---|
+| `/empezar` | `empezar` |
+| Las skills se usan solas o nombrándolas | Igual, o con `$descubrimiento`, `$simulacro`, etc. `/skills` las lista. En la app de escritorio de ChatGPT, con `@` |
+| Pide permiso antes de correr un script | Igual. Para cambiar cuándo pregunta, `/permissions` |
+
+**En Windows**, Codex encuentra las skills a través de un enlace (`.agents/skills`), y git en Windows no siempre crea enlaces. Clona con `git clone -c core.symlinks=true https://github.com/Jinara/cambio-de-carrera`, o usa WSL.
 
 ## El primer día
 
@@ -68,5 +98,7 @@ claude
 ```
 /empezar
 ```
+
+Con Codex, `codex --search` en vez de `claude`, y `empezar` sin la barra.
 
 Y contesta. Si en algún momento quieres ver cómo queda un archivo terminado, está en `ejemplo/`.

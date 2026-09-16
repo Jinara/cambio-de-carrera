@@ -11,7 +11,7 @@ Tres resultados, todos en `mi-cerebro/`:
 - `cv/cv-<carril>.md`, una variante por carril, y sus PDF y DOCX en `cv/build/`.
 - `05-postulaciones.md`, con un veredicto por aviso y el registro de lo que se mandó.
 
-Lee `CLAUDE.md` antes de empezar. Las reglas 1, 3 y 10 son las de este paso.
+Lee `AGENTS.md` antes de empezar. Las reglas 1, 3 y 10 son las de este paso.
 
 ---
 
@@ -59,7 +59,7 @@ Antes de leer nada: ¿el aviso está abierto en el sitio de empleo de la propia 
 
 ### 2. El veredicto, por escrito, antes de tocar el formulario
 
-Es la regla 3 de `CLAUDE.md` y es la que más protege. La estructura está en `references/veredicto-antes-de-llenar.md`:
+Es la regla 3 de `AGENTS.md` y es la que más protege. La estructura está en `references/veredicto-antes-de-llenar.md`:
 
 - Qué pide, requisito por requisito, contra la evidencia.
 - Los huecos, sin maquillar.
@@ -74,7 +74,7 @@ Es la regla 3 de `CLAUDE.md` y es la que más protege. La estructura está en `r
 Solo si dijo que sí. Cada campo resuelto y listo para pegar, en `05-postulaciones.md`:
 
 - Los datos que se repiten (nombre, correo, teléfono, LinkedIn) salen de una sola tabla arriba del archivo, para que sean idénticos en todas las postulaciones.
-- Las preguntas abiertas se contestan con la evidencia, en el tono de `CLAUDE.md` regla 9, y se pasan por `herramientas/chequear.py` antes de dárselas.
+- Las preguntas abiertas se contestan con la evidencia, en el tono de la regla 9 de `AGENTS.md`, y se pasan por `herramientas/chequear.py` antes de dárselas.
 - Sueldo: el número que la persona decidió para este formulario, con la unidad que pide el campo.
 - Los campos que confunden (autorización de trabajo, patrocinio de visa, nombre legal) tienen su respuesta en `references/trampas-de-formularios.md`.
 
@@ -82,7 +82,7 @@ Solo si dijo que sí. Cada campo resuelto y listo para pegar, en `05-postulacion
 
 ### 4. Enviar
 
-**Lo aprieta la persona. Nunca Claude**, aunque tenga el navegador abierto y el formulario lleno. Es la regla 10.
+**Lo aprieta la persona. Nunca el asistente**, aunque tenga el navegador abierto y el formulario lleno. Es la regla 10.
 
 ### 5. El registro
 

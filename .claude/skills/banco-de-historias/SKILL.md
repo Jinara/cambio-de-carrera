@@ -10,7 +10,7 @@ Dos resultados en `mi-cerebro/`:
 - `06-banco-de-historias.md`: las historias, y la tabla de qué historia va con qué pregunta.
 - `07-narrativa.md`: la frase, el arco, los seis largos, las preguntas difíciles y lo que no se dice.
 
-Lee `CLAUDE.md` antes de empezar. Las reglas 6, 7 y 8 son las de este paso.
+Lee `AGENTS.md` antes de empezar. Las reglas 6, 7 y 8 son las de este paso.
 
 ## De dónde sale todo
 

@@ -33,6 +33,6 @@ Ningún número está escrito a mano: el script calcula todo con fracciones exac
 
 Si quieres un cuadernillo distinto, cambia `SEMILLA` al principio del archivo. Las preguntas son las mismas y cambian el orden y la posición de la respuesta correcta.
 
-## Con Claude
+## Con Claude o Codex
 
-En la skill `simulacro` hay un modo numérico: Claude te toma el simulacro o una tanda, anotas las letras y el tiempo, y te corrige separando los errores de cuenta, de lectura y de tiempo. Si un tipo de pregunta te falla dos veces, te arma diez más de ese tipo.
+En la skill `simulacro` hay un modo numérico: el asistente te toma el simulacro o una tanda, anotas las letras y el tiempo, y te corrige separando los errores de cuenta, de lectura y de tiempo. Si un tipo de pregunta te falla dos veces, te arma diez más de ese tipo.
