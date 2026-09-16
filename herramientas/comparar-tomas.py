@@ -93,7 +93,11 @@ def formato(v):
 
 
 def extraer_numeros(texto):
-    """Devuelve [(valor, unidad, fragmento)] y el texto con los números en palabras pasados a cifras."""
+    """Devuelve [(valor, unidad, fragmento, palabra)] y el texto con los números en palabras pasados a cifras.
+
+    La unidad es la raíz de la palabra ("client"), para juntar "cliente" y "clientes". La palabra es
+    como se dijo ("clientes"), para mostrarla.
+    """
     tokens = re.findall(r"\d+(?:[.,]\d+)*%?|[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]+", texto)
     norm = [sin_tildes(t.lower()) for t in tokens]
     salida, digitalizado, i = [], [], 0
@@ -152,29 +156,31 @@ def extraer_numeros(texto):
             porcentaje, i = True, i + 2
         # La unidad: la primera palabra con contenido después del número. En un porcentaje solo
         # cuenta si viene con "de" ("80% del gasto"); si no, la palabra siguiente es cualquier cosa.
-        unidad, k = None, i
+        unidad, palabra, k = None, None, i
         buscar_unidad = not porcentaje or (i < len(tokens) and norm[i] in ("de", "del"))
         while buscar_unidad and k < len(tokens) and k < i + 4:
             if re.fullmatch(r"\d.*", tokens[k]) or norm[k] in VALORES:
                 break
             if norm[k] not in VACIAS and len(norm[k]) >= 4:
-                unidad = raiz(tokens[k])
+                unidad, palabra = raiz(tokens[k]), tokens[k].lower()
                 break
             k += 1
         if porcentaje:
             unidad = "%" + (f" {unidad}" if unidad else "")
+            palabra = "%" + (f" {palabra}" if palabra else "")
         previa = norm[inicio - 1] if inicio > 0 else ""
         if (not porcentaje and re.fullmatch(r"\d{4}", tokens[inicio]) and 1950 <= valor <= 2100
                 and (unidad is None or previa in ("el", "en", "desde", "hasta", "de", "ano"))):
-            unidad = "año (¿fecha?)"
+            unidad = palabra = "año (¿fecha?)"
         fragmento = " ".join(tokens[inicio:min(k + 1, len(tokens))])
-        salida.append([valor, unidad, fragmento, inicio, i])
+        salida.append([valor, unidad, fragmento, inicio, i, palabra])
         digitalizado.append(formato(valor) + ("%" if porcentaje else ""))
     # "de 7,6 a 4,6 centavos": la primera cifra toma la unidad de la segunda.
     for a, b in zip(salida, salida[1:]):
         if a[1] is None and b[1] is not None and b[3] - a[4] <= 1:
-            a[1] = b[1]
-    return [(v, u or "(sin unidad)", f) for v, u, f, *_ in salida], " ".join(digitalizado)
+            a[1], a[5] = b[1], b[5]
+    return ([(v, u or "(sin unidad)", f, pal or u or "(sin unidad)") for v, u, f, _, _, pal in salida],
+            " ".join(digitalizado))
 
 
 def leer_tomas(rutas):
@@ -261,10 +267,12 @@ def main():
 
     print("## 2. El número que baila\n")
     por_unidad = defaultdict(lambda: defaultdict(set))
+    como_se_dijo = defaultdict(Counter)
     for idx, t in enumerate(tomas):
-        for valor, unidad, _ in t["numeros"]:
+        for valor, unidad, _, palabra in t["numeros"]:
             if "(¿fecha?)" not in unidad and unidad != "(sin unidad)":
                 por_unidad[unidad][idx].add(valor)
+                como_se_dijo[unidad][palabra] += 1
     def baila(d):
         conjuntos = list(d.values())
         return any(not (a <= b or b <= a) for x, a in enumerate(conjuntos) for b in conjuntos[x + 1:])
@@ -277,7 +285,7 @@ def main():
         for unidad, d in sorted(bailan.items()):
             celdas = [" y ".join(formato(v) for v in sorted(d[i])) if i in d else "·"
                       for i in range(len(tomas))]
-            print(f"| {unidad} | " + " | ".join(celdas) + " |")
+            print(f"| {como_se_dijo[unidad].most_common(1)[0][0]} | " + " | ".join(celdas) + " |")
         print("\n⚠️ Cada fila es una cifra que no se dijo igual en todas las tomas. Se revisa contra "
               "02-evidencia.md: la que tiene fuente es la que va, y las otras se retiran.\n")
 

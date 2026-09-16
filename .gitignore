@@ -3,7 +3,8 @@ mi-cerebro/*
 !mi-cerebro/LEEME.md
 
 # Audios y transcripciones
-herramientas/audios/
+herramientas/audios/*
+!herramientas/audios/LEEME.md
 simulacros/
 *.m4a
 *.mp3
