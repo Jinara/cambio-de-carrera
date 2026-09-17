@@ -4,6 +4,8 @@ Este es el método que uso, empaquetado como skills para Claude Code. También f
 
 No promete trabajo ni es un curso. Es lo que hice para cambiar de carrera, y lo comparto porque me sirvió ordenarlo.
 
+Por qué lo armé, contado por mí, está en [`BIENVENIDA.md`](BIENVENIDA.md). Es lo primero que vas a leer cuando empieces.
+
 La idea de fondo cabe en una línea: **cada cosa que digas sobre ti tiene que tener una prueba detrás.** Un entrevistador senior huele el adorno en una pregunta, y ahí se cae todo lo que digas después. La precisión es lo único que no se puede falsificar.
 
 ## Qué necesitas

@@ -15,8 +15,9 @@ Si `mi-cerebro/` no tiene ningún archivo además de `LEEME.md`:
    git check-ignore -q mi-cerebro/prueba.md && echo ignorada
    ```
    Si no dice `ignorada`, **para** y dile a la persona que revise `.gitignore` antes de escribir nada.
-2. Dile en cuatro o cinco líneas qué va a pasar: cuatro pasos para llegar a mandar el CV y tres para preparar entrevistas, qué produce cada uno, que todo queda en `mi-cerebro/` y no se sube a ningún lado, y que el primero es el más largo y conviene hacerlo en varias sesiones.
-3. Pregúntale si ya tiene a mano lo de la lista de `EMPEZAR.md` (CV, LinkedIn en PDF, certificados, evaluaciones). No hace falta todo para arrancar: el paso 1 funciona solo con conversación.
+2. **La bienvenida de Nath, en tres partes.** `BIENVENIDA.md` tiene tres partes separadas por `---`. Muestra la primera tal cual, completa, sin resumirla ni cambiarle una palabra, y agrega al final una sola línea: *Escribe **siguiente** para seguir.* Termina tu mensaje ahí y espera. Cuando la persona conteste, muestra la segunda parte igual, con la misma línea al final, y espera otra vez. Después, la tercera. Si en vez de seguir la persona pregunta algo, contéstalo corto y vuelve a ofrecer *siguiente*.
+3. Después de la tercera parte, lo práctico en tres o cuatro líneas: son siete pasos, cuatro para llegar a mandar el CV y tres para preparar entrevistas; todo queda en `mi-cerebro/` y no se sube a ningún lado; el primero es el más largo y conviene hacerlo en varias sesiones.
+4. Pregúntale si ya tiene a mano lo de la lista de `EMPEZAR.md` (CV, LinkedIn en PDF, certificados, evaluaciones). No hace falta todo para arrancar: el paso 1 funciona solo con conversación.
 
 ## 2. Qué paso toca
 
