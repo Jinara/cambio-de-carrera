@@ -7,7 +7,7 @@
 | | |
 |---|---|
 | Recibido | 15-sep-2026, 10:12 |
-| Postulación enviada | 12-sep-2026 (registro de `05-postulaciones.md`) · tardaron tres días |
+| Postulación enviada | 12-sep-2026 (historial de `vacantes.json`) · tardaron tres días |
 | Remitente | Alguien del área de Selección, desde `@lumbrera.example.com`, el mismo dominio de su sitio de empleo. Legítimo |
 | Link | Una videollamada de Google Meet. Normal, no pide nada más que entrar |
 | Formato | *"Una conversación de 30 minutos para conocerte y contarte del puesto"*. Llamada con quien recluta |

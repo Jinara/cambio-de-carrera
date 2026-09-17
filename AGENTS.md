@@ -14,11 +14,14 @@ Cada paso es una skill, y cada skill escribe un archivo en `mi-cerebro/`:
 | 2 | `inventario-de-evidencia` | `mi-cerebro/02-evidencia.md` y `numeros-retirados.txt` |
 | 3 | `ejercicio-de-preferencias` | `mi-cerebro/03-que-trabajo-quiero.md` y `avisos/` |
 | 4 | `cv-y-postulacion` | `mi-cerebro/04-cv-maestro.md`, `cv/` y `05-postulaciones.md` |
+| Junto al 4 | `busqueda-de-vacantes` | `mi-cerebro/vacantes.json`, `barrido.json` y `barrido/` |
 | 5 | `banco-de-historias` | `mi-cerebro/06-banco-de-historias.md` y `07-narrativa.md` |
 | 6 | `brief-de-entrevista` | `mi-cerebro/entrevistas/<empresa>/brief.md` |
 | 7 | `simulacro` | `mi-cerebro/entrevistas/<empresa>/simulacro.md` y `tomas-p<N>.txt` |
 
 Los pasos 1 a 4 van de saber qué trabajo se quiere a mandar el CV. Los pasos 5 a 7 son la preparación de entrevistas, y el 6 y el 7 se repiten por cada empresa que llama.
+
+`busqueda-de-vacantes` acompaña al paso 4 desde que hay una variante de CV y sigue mientras dure la búsqueda: el registro de vacantes, el barrido de boards de empleo y el tablero. **`mi-cerebro/vacantes.json` es el único registro de vacantes.** Qué se mandó, con qué CV y qué pasó después se anota ahí, con `herramientas/vacantes.py` o desde el tablero, y en ningún otro archivo.
 
 El material para practicar tests numéricos (un simulacro de 10 preguntas y un cuadernillo de 100) está en `practica/razonamiento-numerico/`, y lo usa el paso 7.
 

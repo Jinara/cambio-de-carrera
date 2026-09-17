@@ -1,0 +1,286 @@
+{
+ "congelado_en": "2026-09-17",
+ "vacantes": [
+  {
+   "id": "pag1",
+   "estado": "postulada",
+   "cargada": "2026-08-20",
+   "entrevistas": 0,
+   "empresa": "Pagatú",
+   "puesto": "Product Manager, Growth",
+   "url": "https://empleos.example.com/pagatu/pm-growth",
+   "cv": "cv-anterior",
+   "enviado": "2026-08-20",
+   "notas": "Antes del método: sin veredicto y con el CV que tenía."
+  },
+  {
+   "id": "pag2",
+   "estado": "postulada",
+   "cargada": "2026-08-27",
+   "entrevistas": 0,
+   "empresa": "Pagatú",
+   "puesto": "Product Manager, Onboarding",
+   "url": "https://empleos.example.com/pagatu/pm-onboarding",
+   "cv": "cv-anterior",
+   "enviado": "2026-08-27",
+   "notas": "Antes del método: sin veredicto y con el CV que tenía."
+  },
+  {
+   "id": "kil1",
+   "estado": "postulada",
+   "cargada": "2026-09-09",
+   "entrevistas": 0,
+   "empresa": "Kilómetro Cero",
+   "puesto": "Product Analyst, Operaciones de Última Milla",
+   "url": "https://empleos.example.com/km0/pa-ops",
+   "carril": "A",
+   "notas": "Veredicto en 05-postulaciones.md: conviene con un riesgo (temporadas altas, par 7).",
+   "cv": "cv-a-producto-operaciones",
+   "enviado": "2026-09-11"
+  },
+  {
+   "id": "tie1",
+   "estado": "respondieron",
+   "cargada": "2026-09-10",
+   "entrevistas": 0,
+   "empresa": "Tiendas Lumbrera",
+   "puesto": "Product Owner E-commerce",
+   "url": "https://empleos.example.com/lumbrera/po-ecom",
+   "carril": "B",
+   "notas": "15-sep: correo para agendar la llamada con quien recluta, 18-sep a las 11:00. Brief en entrevistas/tiendas-lumbrera/.",
+   "cv": "cv-b-producto-ecommerce",
+   "enviado": "2026-09-12"
+  },
+  {
+   "id": "can1",
+   "estado": "descartada",
+   "cargada": "2026-09-10",
+   "entrevistas": 0,
+   "empresa": "Canastilla Norte",
+   "puesto": "Senior Product Manager, Marketplace",
+   "url": "https://empleos.example.com/canastilla/spm-marketplace",
+   "notas": "No conviene: dos requisitos excluyentes que no cumple y jefatura de dos personas. Muestra: un solo aviso."
+  },
+  {
+   "id": "rut1",
+   "estado": "rechazada",
+   "cargada": "2026-09-12",
+   "entrevistas": 0,
+   "empresa": "Rutas Chungará",
+   "puesto": "Product Analyst, Planificación de Rutas",
+   "url": "https://empleos.example.com/chungara/pa-rutas",
+   "carril": "A",
+   "notas": "16-sep: correo automático de rechazo, sin entrevista y sin motivo. De un solo rechazo no se saca ninguna conclusión.",
+   "cv": "cv-a-producto-operaciones",
+   "enviado": "2026-09-13"
+  },
+  {
+   "id": "des1",
+   "estado": "postulada",
+   "cargada": "2026-09-14",
+   "entrevistas": 0,
+   "empresa": "Despachos Cumbre",
+   "puesto": "Product Owner, Herramientas de Bodega",
+   "url": "https://empleos.example.com/cumbre/po-bodega",
+   "carril": "A",
+   "notas": "Del barrido, 2026-09-14 · Santiago, Chile. Veredicto en 05-postulaciones.md: conviene con un riesgo (nadie de producto a la vista).",
+   "cv": "cv-a-producto-operaciones",
+   "enviado": "2026-09-15"
+  },
+  {
+   "id": "env1",
+   "estado": "revisar",
+   "cargada": "2026-09-17",
+   "entrevistas": 0,
+   "empresa": "Envíos Tololo",
+   "puesto": "Product Analyst",
+   "url": "https://empleos.example.com/tololo/product-analyst",
+   "notas": "Del barrido, 2026-09-17 · Santiago, Chile, Híbrido",
+   "carril": "A"
+  }
+ ],
+ "historial": [
+  {
+   "fecha": "2026-08-20",
+   "id": "pag1",
+   "campo": "alta",
+   "antes": null,
+   "despues": "postulada"
+  },
+  {
+   "fecha": "2026-08-27",
+   "id": "pag2",
+   "campo": "alta",
+   "antes": null,
+   "despues": "postulada"
+  },
+  {
+   "fecha": "2026-09-09",
+   "id": "kil1",
+   "campo": "alta",
+   "antes": null,
+   "despues": "revisar"
+  },
+  {
+   "fecha": "2026-09-10",
+   "id": "tie1",
+   "campo": "alta",
+   "antes": null,
+   "despues": "revisar"
+  },
+  {
+   "fecha": "2026-09-10",
+   "id": "can1",
+   "campo": "alta",
+   "antes": null,
+   "despues": "revisar"
+  },
+  {
+   "fecha": "2026-09-11",
+   "id": "kil1",
+   "campo": "estado",
+   "antes": "revisar",
+   "despues": "postulada"
+  },
+  {
+   "fecha": "2026-09-11",
+   "id": "kil1",
+   "campo": "cv",
+   "antes": null,
+   "despues": "cv-a-producto-operaciones"
+  },
+  {
+   "fecha": "2026-09-11",
+   "id": "kil1",
+   "campo": "enviado",
+   "antes": null,
+   "despues": "2026-09-11"
+  },
+  {
+   "fecha": "2026-09-12",
+   "id": "tie1",
+   "campo": "estado",
+   "antes": "revisar",
+   "despues": "postulada"
+  },
+  {
+   "fecha": "2026-09-12",
+   "id": "tie1",
+   "campo": "cv",
+   "antes": null,
+   "despues": "cv-b-producto-ecommerce"
+  },
+  {
+   "fecha": "2026-09-12",
+   "id": "tie1",
+   "campo": "enviado",
+   "antes": null,
+   "despues": "2026-09-12"
+  },
+  {
+   "fecha": "2026-09-12",
+   "id": "can1",
+   "campo": "estado",
+   "antes": "revisar",
+   "despues": "descartada"
+  },
+  {
+   "fecha": "2026-09-12",
+   "id": "can1",
+   "campo": "notas",
+   "antes": null,
+   "despues": "No conviene: dos requisitos excluyentes que no cumple y jefatura de dos personas. Muestra: un solo aviso."
+  },
+  {
+   "fecha": "2026-09-12",
+   "id": "rut1",
+   "campo": "alta",
+   "antes": null,
+   "despues": "revisar"
+  },
+  {
+   "fecha": "2026-09-13",
+   "id": "rut1",
+   "campo": "estado",
+   "antes": "revisar",
+   "despues": "postulada"
+  },
+  {
+   "fecha": "2026-09-13",
+   "id": "rut1",
+   "campo": "cv",
+   "antes": null,
+   "despues": "cv-a-producto-operaciones"
+  },
+  {
+   "fecha": "2026-09-13",
+   "id": "rut1",
+   "campo": "enviado",
+   "antes": null,
+   "despues": "2026-09-13"
+  },
+  {
+   "fecha": "2026-09-14",
+   "id": "des1",
+   "campo": "alta",
+   "antes": null,
+   "despues": "revisar"
+  },
+  {
+   "fecha": "2026-09-15",
+   "id": "des1",
+   "campo": "estado",
+   "antes": "revisar",
+   "despues": "postulada"
+  },
+  {
+   "fecha": "2026-09-15",
+   "id": "des1",
+   "campo": "cv",
+   "antes": null,
+   "despues": "cv-a-producto-operaciones"
+  },
+  {
+   "fecha": "2026-09-15",
+   "id": "des1",
+   "campo": "enviado",
+   "antes": null,
+   "despues": "2026-09-15"
+  },
+  {
+   "fecha": "2026-09-15",
+   "id": "tie1",
+   "campo": "estado",
+   "antes": "postulada",
+   "despues": "respondieron"
+  },
+  {
+   "fecha": "2026-09-15",
+   "id": "tie1",
+   "campo": "notas",
+   "antes": "Veredicto en 05-postulaciones.md: conviene con un riesgo (nunca tuvo el título).",
+   "despues": "15-sep: correo para agendar la llamada con quien recluta, 18-sep a las 11:00. Brief en entrevistas/tiendas-lumbrera/."
+  },
+  {
+   "fecha": "2026-09-16",
+   "id": "rut1",
+   "campo": "estado",
+   "antes": "postulada",
+   "despues": "rechazada"
+  },
+  {
+   "fecha": "2026-09-16",
+   "id": "rut1",
+   "campo": "notas",
+   "antes": "De una alerta de empleo por correo. Veredicto en 05-postulaciones.md: conviene.",
+   "despues": "16-sep: correo automático de rechazo, sin entrevista y sin motivo. De un solo rechazo no se saca ninguna conclusión."
+  },
+  {
+   "fecha": "2026-09-17",
+   "id": "env1",
+   "campo": "alta",
+   "antes": null,
+   "despues": "revisar"
+  }
+ ]
+}

@@ -1,6 +1,8 @@
 # 05 · Postulaciones
 
-Un veredicto por aviso, antes de tocar el formulario. Las respuestas listas para pegar, solo si la decisión fue que sí. Y el registro de lo que se mandó, con qué CV.
+Un veredicto por aviso, antes de tocar el formulario. Y las respuestas listas para pegar, solo si la decisión fue que sí.
+
+Qué se mandó, con qué CV y qué pasó después está en `vacantes.json`. Para verlo en una página: `python3 herramientas/tablero.py --cerebro ejemplo`.
 
 ---
 
@@ -31,18 +33,56 @@ Un veredicto por aviso, antes de tocar el formulario. Las respuestas listas para
 
 ---
 
-## Registro
+---
 
-| Fecha | Empresa | Puesto | Carril | Variante de CV | Link | Estado |
-|---|---|---|---|---|---|---|
-| 11-sep-2026 | Kilómetro Cero | Product Analyst, Operaciones de Última Milla | A | cv-a-producto-operaciones | empleos.example.com/km0/pa-ops | Enviada |
-| 12-sep-2026 | Tiendas Lumbrera | Product Owner E-commerce | B | cv-b-producto-ecommerce | empleos.example.com/lumbrera/po-ecom | Enviada · 15-sep: correo para agendar primera llamada |
+## Despachos Cumbre · Product Owner, Herramientas de Bodega · 14-sep-2026
 
-## Descartadas
+empleos.example.com/cumbre/po-bodega · Híbrido, Santiago · Contrato indefinido · Unas 400 personas (según el aviso) · Lo encontró el barrido
 
-| Fecha | Empresa | Puesto | Motivo | Muestra, si es una regla general |
-|---|---|---|---|---|
-| 12-sep-2026 | Canastilla Norte | Senior Product Manager, Marketplace | Dos requisitos excluyentes que no cumple, y jefatura de dos personas | Un solo aviso |
+**Veredicto: conviene con un riesgo.** Los tres requisitos de fondo los tiene. El riesgo es con quién trabajaría: el puesto reporta a la gerencia de operaciones y el aviso no nombra a nadie de producto.
+
+**Carril:** A · **Variante de CV:** cv-a-producto-operaciones
+
+### Requisito por requisito
+
+| Lo que pide el aviso | Lo que tiene | Evidencia |
+|---|---|---|
+| "Experiencia en operaciones de bodega, abastecimiento o distribución" | Sí | Abastecimiento 2019 a 2021 en Ruta Norte, y control de gestión en Quintral |
+| "Levantar requerimientos con usuarios de la operación" | Sí | Al menos 64 requerimientos a BI, y las visitas a cuatro locales |
+| "Priorizar un backlog de mejoras" | Parcial | Decidió qué entraba al piloto, nunca manejó un backlog |
+| "Deseable: SQL" | Sí, en nivel intermedio | Uso semanal para el tablero de salud de stock |
+
+### El riesgo real
+
+"Reporta a la Gerencia de Operaciones" choca con el criterio que salió del par 6: quiere a alguien senior de producto cerca. Puede que exista y el aviso no lo diga. Se pregunta en la primera conversación, y si la respuesta es que no hay nadie, es motivo para retirarse.
+
+### Qué preguntar en la primera conversación
+
+- "¿Con quién trabajaría el día a día, y qué experiencia tiene en producto?"
+- "¿Cuánto tarda una idea desde que se propone hasta que se prueba?"
+
+**Enviada por Toffy el 15-sep-2026.**
+
+---
+
+## Rutas Chungará · Product Analyst, Planificación de Rutas · 12-sep-2026
+
+empleos.example.com/chungara/pa-rutas · Híbrido, Santiago · Contrato indefinido · Llegó por una alerta de empleo por correo
+
+**Veredicto: conviene.** Es del carril A y cumple lo requerido. Le falta el deseable de Python y nunca trabajó en transporte, que el aviso no pide como excluyente.
+
+**Carril:** A · **Variante de CV:** cv-a-producto-operaciones
+
+### Requisito por requisito
+
+| Lo que pide el aviso | Lo que tiene | Evidencia |
+|---|---|---|
+| "SQL (excluyente)" | Sí, en nivel intermedio | Uso semanal para el tablero de salud de stock |
+| "Experiencia en logística, transporte u operaciones" | Sí, en operaciones | Siete años en abastecimiento y operaciones. Transporte, no |
+| "Trabajo con usuarios internos" | Sí | El piloto de alertas: de 11% a 58% de alertas atendidas |
+| "Deseable: Python" | No | · |
+
+**Enviada por Toffy el 13-sep-2026.** El 16-sep llegó un rechazo automático, sin entrevista y sin motivo. Uno solo no dice nada sobre el carril, y queda anotado así en `vacantes.json`.
 
 ---
 

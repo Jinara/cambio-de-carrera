@@ -19,7 +19,7 @@ Lee `AGENTS.md` antes de empezar.
 
 ### 1. Leer el correo antes que nada
 
-- **Cuánto tardaron en contestar** desde que se envió la postulación (está en el registro del paso 4). Es un dato, no una señal mágica: se anota y se sigue.
+- **Cuánto tardaron en contestar** desde que se envió la postulación (está en el historial de `mi-cerebro/vacantes.json`). Es un dato, no una señal mágica: se anota y se sigue.
 - **Si el remitente es legítimo.** El dominio del correo es el de la empresa, o el de un sistema de selección conocido. Si el link lleva a un dominio raro y la entrevista pide cámara, micrófono o datos personales, se revisa dos veces antes de dar permisos. Ante la duda, se contesta el correo preguntando.
 - **Qué formato dice**, o qué formato deja deducir. La guía está en `references/formatos-de-entrevista.md`.
 - **Plazos:** hasta cuándo vale el link, cuánto dura, si se puede reprogramar.
@@ -29,7 +29,7 @@ Lee `AGENTS.md` antes de empezar.
 Antes de preparar respuestas, lo que ya está afuera:
 
 - **LinkedIn contra `numeros-retirados.txt`.** Si el perfil publicado todavía dice un número que se corrigió, quien entrevista lo puede preguntar. Se corrige en el perfil antes de la entrevista, a mano, por la persona.
-- **El CV que se mandó** (la variante está en el registro del paso 4). Se relee: la entrevista va a salir de ahí.
+- **El CV que se mandó** (la variante está en `mi-cerebro/vacantes.json`). Se relee: la entrevista va a salir de ahí.
 - **Las respuestas del formulario**, si las hubo. Quien entrevista las tiene delante.
 
 ### 3. La empresa

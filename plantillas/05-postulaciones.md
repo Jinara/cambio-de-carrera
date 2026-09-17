@@ -1,6 +1,8 @@
 # 05 · Postulaciones
 
-Un veredicto por aviso, antes de tocar el formulario. Las respuestas listas para pegar, solo si la decisión fue que sí. Y el registro de lo que se mandó, con qué CV.
+Un veredicto por aviso, antes de tocar el formulario. Y las respuestas listas para pegar, solo si la decisión fue que sí.
+
+Qué se mandó, con qué CV y qué pasó después no va acá: va en `vacantes.json`, que es el único registro de vacantes.
 
 ---
 
@@ -24,18 +26,6 @@ Un veredicto por aviso, antes de tocar el formulario. Las respuestas listas para
 ### ¿Por qué quieres cambiar de trabajo?
 
 ### ¿Qué herramientas de IA usas?
-
----
-
-## Registro
-
-| Fecha | Empresa | Puesto | Carril | Variante de CV | Link | Estado |
-|---|---|---|---|---|---|---|
-
-## Descartadas
-
-| Fecha | Empresa | Puesto | Motivo | Muestra, si es una regla general |
-|---|---|---|---|---|
 
 ---
 

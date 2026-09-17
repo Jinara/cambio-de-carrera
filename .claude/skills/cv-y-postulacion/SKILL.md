@@ -1,15 +1,16 @@
 ---
 name: cv-y-postulacion
-description: Paso 4 del método. Arma el CV maestro desde la evidencia verificada, lo recorta en una variante por carril, genera PDF y DOCX que los ATS leen bien, y acompaña cada postulación - primero el veredicto por escrito (qué pide el aviso, qué cumple, qué le falta, si conviene), después las respuestas del formulario listas para pegar, y al final el registro de con qué CV se mandó. Nunca aprieta Enviar. Usar cuando /empezar detecta que existe 03-que-trabajo-quiero.md, o cuando la persona dice "armemos el CV", "adapta mi CV a este aviso", "me quiero postular a esto", "pásame las respuestas del formulario", "¿conviene mandar a esta?".
+description: Paso 4 del método. Arma el CV maestro desde la evidencia verificada, lo recorta en una variante por carril, genera PDF y DOCX que los ATS leen bien, y acompaña cada postulación - primero el veredicto por escrito (qué pide el aviso, qué cumple, qué le falta, si conviene), después las respuestas del formulario listas para pegar, y al final la anotación en el registro de vacantes con qué CV se mandó. Nunca aprieta Enviar. Usar cuando /empezar detecta que existe 03-que-trabajo-quiero.md, o cuando la persona dice "armemos el CV", "adapta mi CV a este aviso", "me quiero postular a esto", "pásame las respuestas del formulario", "¿conviene mandar a esta?".
 ---
 
 # CV y postulación
 
-Tres resultados, todos en `mi-cerebro/`:
+Cuatro resultados, todos en `mi-cerebro/`:
 
 - `04-cv-maestro.md`, con todo.
 - `cv/cv-<carril>.md`, una variante por carril, y sus PDF y DOCX en `cv/build/`.
-- `05-postulaciones.md`, con un veredicto por aviso y el registro de lo que se mandó.
+- `05-postulaciones.md`, con los datos fijos, las respuestas reusables y un veredicto por aviso.
+- La vacante en `vacantes.json`, el registro de la skill `busqueda-de-vacantes`, con el estado y el CV que se mandó.
 
 Lee `AGENTS.md` antes de empezar. Las reglas 1, 3 y 10 son las de este paso.
 
@@ -86,14 +87,17 @@ Solo si dijo que sí. Cada campo resuelto y listo para pegar, en `05-postulacion
 
 ### 5. El registro
 
-Después de que la persona confirma que envió, una fila en la tabla de registro de `05-postulaciones.md`:
+Después de que la persona confirma que envió, la vacante pasa a `postulada` en `mi-cerebro/vacantes.json`, con la variante de CV:
 
-| Fecha | Empresa | Puesto | Carril | Variante de CV | Link | Estado |
-|---|---|---|---|---|---|---|
+```bash
+python3 herramientas/vacantes.py cambiar kil1 estado=postulada cv=cv-a-producto-operaciones
+```
+
+Si la vacante todavía no estaba en el registro, primero va el `alta`. Cómo funciona el registro está en la skill `busqueda-de-vacantes`, parte 1.
 
 **Anotar la variante de CV no es opcional.** Sin eso, el experimento del paso 3 no mide nada.
 
-Cuando llega una respuesta (entrevista, rechazo, silencio pasado un tiempo), se actualiza el estado con la fecha.
+Si decidió no mandarla, queda `descartada` con el motivo y la muestra en las notas. Cuando llega una respuesta, se cambia el estado: el historial guarda la fecha solo.
 
 ---
 

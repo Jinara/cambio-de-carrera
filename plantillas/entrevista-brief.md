@@ -9,7 +9,7 @@
 | | |
 |---|---|
 | Recibido | [fecha y hora] |
-| Postulación enviada | [fecha, del registro de 05] · tardaron [días] |
+| Postulación enviada | [fecha, de vacantes.json] · tardaron [días] |
 | Remitente | [dominio] · ¿es de la empresa o de un sistema de selección conocido? |
 | Link | [dominio del link] · ¿pide cámara, micrófono o datos? |
 | Formato | [qué dice o qué se deduce] |

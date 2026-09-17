@@ -26,6 +26,8 @@ Que el sitio de una empresa no muestre vacantes no quiere decir que no tenga.
 
 La mayoría de estos sistemas deja suscribirse a avisos nuevos de una empresa. Para las empresas objetivo del paso 3, conviene activarlas. Es lo que evita enterarse de casualidad de un aviso que cerró ayer.
 
+Si la empresa publica en Greenhouse, Lever, Ashby o Recruitee, el barrido de la skill `busqueda-de-vacantes` la mira solo, varias veces por día.
+
 ---
 
 ## Llenando el formulario
@@ -85,6 +87,6 @@ Para un puesto remoto desde otro país, sin mudarse, la respuesta habitual es **
 
 ## Después de enviar
 
-- **Anotar la variante de CV** en el registro. Sin eso no hay experimento.
+- **Anotar la variante de CV** en `vacantes.json`. Sin eso no hay experimento.
 - **El correo de confirmación** confirma que llegó. Si no llega en unos minutos, se revisa spam y después se asume que no se envió.
 - **Varias postulaciones a la misma empresa el mismo día** pueden no recibir respuesta en ninguna. Es un solo caso observado, no una regla probada: se anota con qué muestra y se revisa si se repite.

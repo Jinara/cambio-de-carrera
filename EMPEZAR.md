@@ -5,7 +5,7 @@
 | Qué | Para qué | Obligatorio |
 |---|---|---|
 | [Claude Code](https://claude.com/claude-code) o [Codex](https://learn.chatgpt.com/docs/codex/cli) | Todo el método | Uno de los dos |
-| Python 3 | Generar el CV y revisar textos | Para el paso 4 |
+| Python 3 | Generar el CV, revisar textos, el barrido de vacantes y el tablero | Para el paso 4 |
 | Chrome, Chromium, Edge o Brave | Pasar el CV a PDF | Para el paso 4 |
 | pandoc | El CV en DOCX (en Mac no hace falta: se usa `textutil`) | No |
 | `whisper-cli` y `ffmpeg` | El simulacro hablado, y contestar hablando en el paso 1 | Para el paso 7 |

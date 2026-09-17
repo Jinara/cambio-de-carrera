@@ -31,9 +31,12 @@ Mira `mi-cerebro/` y decide:
 | `02-evidencia.md` no tiene la tabla de límites completa | Paso 2, retomando |
 | No existe `03-que-trabajo-quiero.md`, o no tiene la sección de carriles | Paso 3, skill `ejercicio-de-preferencias` |
 | No existe `04-cv-maestro.md`, o no hay ninguna variante en `cv/` | Paso 4, skill `cv-y-postulacion`, partes 1 y 2 |
+| Hay variantes en `cv/` y no existe `vacantes.json` | Ofrécele la búsqueda, skill `busqueda-de-vacantes`: el registro, el barrido y el tablero. Si prefiere seguir sin eso, sigue la fila de abajo |
 | No existe `06-banco-de-historias.md` o `07-narrativa.md` | Paso 5, skill `banco-de-historias`. Si todavía no mandó ninguna postulación, ofrécele primero la parte 3 del paso 4 |
 | Hay una carpeta en `entrevistas/` con `brief.md` y sin `simulacro.md`, o con preguntas sin cortar | Paso 7, skill `simulacro`, para esa empresa |
-| Está todo | Pregúntale qué necesita: el link de un aviso nuevo (paso 4, parte 3), o el correo de una empresa que le escribió (paso 6, skill `brief-de-entrevista`) |
+| Está todo | Pregúntale qué necesita: el link de un aviso nuevo (paso 4, parte 3), el correo de una empresa que le escribió (paso 6, skill `brief-de-entrevista`), o cómo va la búsqueda (skill `busqueda-de-vacantes`) |
+
+**Antes de decirle qué sigue, si existe `barrido/hallazgos.json`:** cuéntale en una línea cuántos hallazgos nuevos hay sin decidir, y si el último barrido fue hace más de tres días o no pudo mirar nada. Y si `vacantes.py seguimiento` muestra postuladas con 14 días o más sin respuesta, díselo también. Son dos líneas, no una sesión aparte.
 
 ## 3. Decirlo y arrancar
 

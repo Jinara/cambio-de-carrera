@@ -1,0 +1,19 @@
+{
+ "empresas": [
+  {"nombre": "Kilómetro Cero", "board": "greenhouse", "slug": "ejemplo-kilometrocero"},
+  {"nombre": "Tiendas Lumbrera", "board": "lever", "slug": "ejemplo-lumbrera"},
+  {"nombre": "Despachos Cumbre", "board": "ashby", "slug": "ejemplo-despachoscumbre"},
+  {"nombre": "Rutas Chungará", "board": "greenhouse", "slug": "ejemplo-rutaschungara"},
+  {"nombre": "Envíos Tololo", "board": "recruitee", "slug": "ejemplo-enviostololo"},
+  {"nombre": "Mercado Quillay", "board": "lever", "slug": "ejemplo-mercadoquillay"},
+  {"nombre": "Canastilla Norte", "board": "ashby", "slug": "ejemplo-canastillanorte"}
+ ],
+ "titulos": {
+  "A": ["product analyst", "analista de producto", "product owner", "product operations"],
+  "B": ["e-commerce", "ecommerce", "tienda online", "comercio electronico"]
+ },
+ "titulos_no": ["senior product manager", "head", "director", "gerente", "lead", "practica", "intern"],
+ "ubicacion_si": ["santiago", "chile"],
+ "ubicacion_no": ["argentina", "peru", "colombia", "mexico", "brasil", "brazil", "united states", "us", "spain", "espana"],
+ "ubicacion_salva": ["chile"]
+}

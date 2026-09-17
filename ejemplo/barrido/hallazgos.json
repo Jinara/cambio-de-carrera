@@ -1,0 +1,132 @@
+{
+ "hallazgos": [
+  {
+   "id": "h1",
+   "clave": "ejemplo:po-bodega",
+   "empresa": "Despachos Cumbre",
+   "puesto": "Product Owner, Herramientas de Bodega",
+   "ubicacion": "Santiago, Chile",
+   "url": "https://empleos.example.com/cumbre/po-bodega",
+   "carriles": [
+    "A"
+   ],
+   "encontrado": "2026-09-14T08:00",
+   "estado": "pasado",
+   "vacante": "des1"
+  },
+  {
+   "id": "h2",
+   "clave": "ejemplo:po-ruteo",
+   "empresa": "Rutas Chungará",
+   "puesto": "Product Owner, Ruteo",
+   "ubicacion": "Antofagasta, Chile",
+   "url": "https://empleos.example.com/chungara/po-ruteo",
+   "carriles": [
+    "A"
+   ],
+   "encontrado": "2026-09-14T08:00",
+   "estado": "ignorado"
+  },
+  {
+   "id": "h3",
+   "clave": "ejemplo:product-analyst",
+   "empresa": "Envíos Tololo",
+   "puesto": "Product Analyst",
+   "ubicacion": "Santiago, Chile, Híbrido",
+   "url": "https://empleos.example.com/tololo/product-analyst",
+   "carriles": [
+    "A"
+   ],
+   "encontrado": "2026-09-17T08:00",
+   "estado": "pasado",
+   "vacante": "env1"
+  },
+  {
+   "id": "h4",
+   "clave": "ejemplo:product-ops",
+   "empresa": "Kilómetro Cero",
+   "puesto": "Product Operations Analyst",
+   "ubicacion": "Santiago, Chile",
+   "url": "https://empleos.example.com/km0/product-ops",
+   "carriles": [
+    "A"
+   ],
+   "encontrado": "2026-09-17T08:00",
+   "estado": "nuevo"
+  },
+  {
+   "id": "h5",
+   "clave": "ejemplo:po-tienda-online",
+   "empresa": "Mercado Quillay",
+   "puesto": "Product Owner Tienda Online",
+   "ubicacion": "Remoto, Chile",
+   "url": "https://empleos.example.com/quillay/po-tienda-online",
+   "carriles": [
+    "A",
+    "B"
+   ],
+   "encontrado": "2026-09-17T08:00",
+   "estado": "nuevo"
+  }
+ ],
+ "corridas": [
+  {
+   "fecha": "2026-09-13T20:00",
+   "empresas": 7,
+   "miradas": 7,
+   "nuevos": 0,
+   "fallos": []
+  },
+  {
+   "fecha": "2026-09-14T08:00",
+   "empresas": 7,
+   "miradas": 7,
+   "nuevos": 2,
+   "fallos": []
+  },
+  {
+   "fecha": "2026-09-14T20:00",
+   "empresas": 7,
+   "miradas": 7,
+   "nuevos": 0,
+   "fallos": []
+  },
+  {
+   "fecha": "2026-09-15T08:00",
+   "empresas": 7,
+   "miradas": 7,
+   "nuevos": 0,
+   "fallos": []
+  },
+  {
+   "fecha": "2026-09-15T20:00",
+   "empresas": 7,
+   "miradas": 7,
+   "nuevos": 0,
+   "fallos": []
+  },
+  {
+   "fecha": "2026-09-16T08:00",
+   "empresas": 7,
+   "miradas": 6,
+   "nuevos": 0,
+   "fallos": [
+    "Mercado Quillay (lever/ejemplo-mercadoquillay): timed out"
+   ]
+  },
+  {
+   "fecha": "2026-09-16T20:00",
+   "empresas": 7,
+   "miradas": 7,
+   "nuevos": 0,
+   "fallos": []
+  },
+  {
+   "fecha": "2026-09-17T08:00",
+   "empresas": 7,
+   "miradas": 7,
+   "nuevos": 3,
+   "fallos": []
+  }
+ ]
+}
