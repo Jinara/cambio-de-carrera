@@ -91,6 +91,13 @@ El reporte de la última corrida queda en `mi-cerebro/correo/ultimo.md`. `mi-cer
 
 ---
 
+## Sin darle la clave del correo a nada
+
+Hay dos formas más, y las dos sirven:
+
+- **A pedido, en la conversación.** Si el asistente tiene un conector de correo (Claude tiene el de Gmail), la persona dice "revisa mi correo" y se hace ahí mismo: clasificar, actualizar el registro, etiquetar y archivar. No hay clave ni script, y solo pasa cuando ella lo pide.
+- **Una rutina en la nube que deja la cola en un repo.** Una rutina programada de Claude sí tiene el conector de correo, pero no ve tu computadora. Puede escribir un archivo con lo que encontró (un objeto por correo: id del mensaje, tipo, empresa, puesto, resumen, avisos) y subirlo a un repositorio privado tuyo, y en tu computadora una tarea programada lo lee un rato después y lo aplica en el registro. La nube solo escribe ese archivo y la computadora solo lo lee, así que no hay dos lados peleando por el mismo archivo, y el id de cada mensaje evita aplicar dos veces lo mismo. Ojo con una cosa: `mi-cerebro/` está fuera de git a propósito, así que el archivo de la cola tiene que vivir en otro repositorio, tuyo y privado.
+
 ## Cuando la persona lo pide a mano
 
 Si no quiere darle una clave al script, igual se puede: la persona pega el correo en la conversación, el asistente dice qué tipo es y qué cambio propone en el registro, y lo aplica cuando ella dice que sí (regla 5). Etiquetar y archivar queda a mano.
