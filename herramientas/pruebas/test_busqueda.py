@@ -259,6 +259,16 @@ class Tablero(unittest.TestCase):
         self.assertEqual(datos["mensaje"], "Kilómetro Cero: quedó para revisar")
         self.assertNotIn("h4", [h["id"] for h in datos["hallazgos"]])
 
+    def test_arranca_sin_datos(self):
+        vacio_dir = Path(tempfile.mkdtemp())
+        try:
+            d = tablero.Tablero(vacio_dir).datos()
+            self.assertEqual((d["vacantes"], d["hallazgos"], d["ultima_corrida"]), ([], [], None))
+            barrido.cmd_barrer(vacio_dir, avisar=False)
+            self.assertFalse((vacio_dir / "barrido").exists())
+        finally:
+            shutil.rmtree(vacio_dir)
+
     def test_en_modo_demo_no_se_escribe_nada(self):
         antes = (self.dir / "vacantes.json").read_bytes()
         self.levantar(demo=True)

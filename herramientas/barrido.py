@@ -324,6 +324,9 @@ def cmd_barrer(cerebro, avisar=True):
     hallazgos = cargar_hallazgos(cerebro)
     ahora = datetime.now().isoformat(timespec="minutes")
     total = len(config["empresas"])
+    if total == 0:
+        print("No hay empresas en mi-cerebro/barrido.json. Se agregan con: barrido.py probar \"Nombre\" --agregar")
+        return
     nuevos, fallos, miradas = barrer(config, registro, hallazgos, ahora=ahora)
     texto = reporte(nuevos, fallos, miradas, total, ahora)
     print(texto)
