@@ -42,7 +42,7 @@ Para generar el CV en PDF hace falta Python 3 y Chrome (o Chromium, Edge o Brave
 
 **4. CV y postulación.** Un CV maestro que sale solo de la evidencia verificada, y una variante por cada tipo de puesto, que nunca contradice al maestro. Un script lo pasa a PDF y se niega a generarlo si encuentra un número que ya corregiste. Y para cada aviso, **primero el veredicto por escrito** (qué pide, qué cumples, qué te falta, si conviene) y recién después las respuestas del formulario. Un formulario lleno empuja a enviar, así que la decisión se toma antes de llenarlo. Al botón de Enviar le das clic tú.
 
-**Y la búsqueda, mientras dure.** Un registro de cada vacante, con qué CV la mandaste y qué pasó después. Un barrido que mira los boards de empleo de las empresas que elegiste (Greenhouse, Lever, Ashby y Recruitee) varias veces por día, filtra por los carriles del paso 3 y te avisa lo nuevo. Y un tablero en tu navegador con tus vacantes por estado, las que llevan dos semanas sin respuesta y el experimento: cuántas te respondieron por carril y por CV, con el aviso de que con pocas postulaciones todavía no se puede concluir nada.
+**Y la búsqueda, mientras dure.** Un registro de cada vacante, con qué CV la mandaste y qué pasó después. Un barrido que mira los boards de empleo de las empresas que elegiste (Greenhouse, Lever, Ashby y Recruitee) varias veces por día, filtra por los carriles del paso 3 y te avisa lo nuevo. Un lector de correo que entiende lo que te contestan las empresas: actualiza el registro, archiva los acuses, los rechazos y las alertas de LinkedIn, deja en la bandeja lo que hay que contestar y te avisa. No manda ni borra nada, y los correos que no son de la búsqueda no salen de tu computadora. Y un tablero en tu navegador con tus vacantes por estado, las que llevan dos semanas sin respuesta y el experimento: cuántas te respondieron por carril y por CV, con el aviso de que con pocas postulaciones todavía no se puede concluir nada.
 
 ```bash
 python3 herramientas/tablero.py --cerebro ejemplo
@@ -73,6 +73,7 @@ Tus archivos en `mi-cerebro/`:
 | `05-postulaciones.md` | Tus datos fijos para formularios, las respuestas que reusas y un veredicto por aviso |
 | `vacantes.json` | Cada vacante: de dónde salió, con qué CV la mandaste y qué pasó después |
 | `barrido.json` y `barrido/` | Los filtros y las empresas del barrido, y lo que fue encontrando |
+| `correo.json` y `correo/` | Qué cuenta lee el lector de correo, y qué correos ya procesó |
 | `06-banco-de-historias.md` | Tus historias en dos largos, y qué historia va con qué pregunta |
 | `07-narrativa.md` | La misma verdad en seis largos, y las preguntas difíciles con su trampa |
 | `entrevistas/<empresa>/` | El brief de cada empresa, los papeles del simulacro y tus tomas |
@@ -91,6 +92,7 @@ Si quieres ver cómo termina esto antes de instalar nada, empieza por ahí.
 - `mi-cerebro/` está en `.gitignore`. Es donde va todo lo tuyo.
 - El simulacro transcribe con Whisper **en tu máquina**. Tu voz no se sube a ningún lado, y los audios también están en `.gitignore`.
 - No hay servidor ni cuenta que crear: es una carpeta con archivos de texto. El tablero corre en tu computadora y solo se puede abrir desde ella.
+- Si activas el lector de correo, la clave queda en el llavero de tu sistema, no en el repo. Solo los correos de la búsqueda se mandan a Claude para clasificarlos, y Claude los lee sin herramientas: un correo con instrucciones escondidas no puede hacer que mande, borre ni toque nada.
 - Con Codex, úsalo en tu computadora y no en la nube de ChatGPT. En la nube, tu `mi-cerebro/` quedaría en un servidor.
 
 ## Por qué el barrido corre en tu computadora
@@ -98,10 +100,6 @@ Si quieres ver cómo termina esto antes de instalar nada, empieza por ahí.
 Lo intenté primero en la nube y no funciona: **la búsqueda de vacantes no se puede automatizar con agentes programados en la nube.** Los de Claude corren en un entorno sin salida a internet salvo a los dominios de Anthropic. Probé 26 barridos a boards de empleo y los 26 murieron con `connect_rejected`. Y el reemplazo obvio es peor que el problema: buscar vacantes por web devuelve puestos que ya cerraron. Una que encontré así daba 404 y no estaba en la API del board, o sea que existía solamente en el índice de Google.
 
 Barrer boards funciona, pero en tu propia máquina. Cómo programarlo en Mac, Linux y Windows está en [`correrlo-solo.md`](.claude/skills/busqueda-de-vacantes/references/correrlo-solo.md).
-
-## Lo que viene
-
-**Vigilar el correo:** que el asistente lea las respuestas de las empresas y te avise al teléfono cuando llega algo que importa.
 
 ## Licencia
 

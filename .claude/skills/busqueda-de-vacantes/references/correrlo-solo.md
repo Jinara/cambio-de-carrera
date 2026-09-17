@@ -1,5 +1,7 @@
 # Correr el barrido solo
 
+Lo mismo sirve para el correo: donde dice `barrido.py` va `correo.py`, con otro nombre de tarea y unos minutos después (por ejemplo 9:15, 13:15 y 19:15), así el correo encuentra en el registro lo que el barrido acaba de sumar. El correo necesita que el comando `claude` esté en el `PATH` de la tarea: en launchd y en cron conviene poner la ruta completa, que sale de `which claude`, en una variable `PATH`.
+
 Se programa **después** de la primera corrida a mano, cuando los filtros ya dejan pasar lo que sirve. La primera corrida además crea `mi-cerebro/barrido/`, donde van los registros de las corridas programadas.
 
 ## Cada cuánto

@@ -84,11 +84,19 @@ class Tablero:
             "dias_sin_respuesta": DIAS_SIN_RESPUESTA,
             "hallazgos": [h for h in hallazgos["hallazgos"] if h["estado"] == "nuevo"],
             "ultima_corrida": (hallazgos["corridas"] or [None])[-1],
+            "ultimo_correo": self.ultimo_correo(),
             "empresas_en_barrido": len(config.get("empresas", [])),
             "estados": list(vacantes.ESTADOS),
             "carriles": carriles,
             "cvs": cvs,
         }
+
+    def ultimo_correo(self):
+        p = self.cerebro / "correo" / "procesados.json"
+        if not p.exists():
+            return None
+        corridas = json.loads(p.read_text(encoding="utf-8")).get("corridas") or [None]
+        return corridas[-1]
 
     def accion(self, ruta, cuerpo):
         """Aplica un cambio sobre lo último que hay en disco, y devuelve los datos actualizados."""
@@ -441,6 +449,13 @@ function pintar() {
     if (c.miradas === 0) avisos.push(el("div", { class: "aviso mal", text: `El último barrido (${fechaCorta(c.fecha)}) no pudo mirar ningún board. No quiere decir que no haya nada.` }));
     else if (d >= 3) avisos.push(el("div", { class: "aviso mal", text: `El barrido no corre desde hace ${d} días. Si lo programaste, revisa que siga activo.` }));
     else avisos.push(el("div", { class: "aviso bien", text: `Último barrido ${haceDias(d)}: miró ${c.miradas} de ${c.empresas} empresas${c.fallos.length ? `, fallaron ${c.fallos.length}` : ""}.` }));
+  }
+
+  const m = D.ultimo_correo;
+  if (m) {
+    const d = dias(m.fecha.slice(0, 10), D.hoy);
+    if (d >= 3) avisos.push(el("div", { class: "aviso mal", text: `El correo no se lee desde hace ${d} días. Si lo programaste, revisa que siga activo.` }));
+    else avisos.push(el("div", { class: "aviso bien", text: `Correo leído ${haceDias(d)}: ${m.procesados} de la búsqueda${m.importantes ? `, ${m.importantes} para responder` : ""}${m.errores.length ? `, ${m.errores.length} sin clasificar` : ""}.` }));
   }
 
   const kpi = (num, que, extra) => el("div", { class: "kpi" + (extra || "") }, el("div", { class: "num", text: num }), el("div", { class: "que", text: que }));
