@@ -1,12 +1,14 @@
 # cambio-de-carrera
 
-Este es el método que uso, empaquetado como skills para Claude Code. También funciona con Codex.
+Este es el método que armé para cambiarme de carrera, empaquetado como skills para Claude Code. También funciona con Codex.
 
-No promete trabajo ni es un curso. Es lo que hice para cambiar de carrera, y lo comparto porque me sirvió ordenarlo.
+Honestamente, no te promete trabajo y no es un curso. Es lo que hice yo cuando salí a buscar, después de más de una década desarrollando software y tres años de emprender, y lo comparto porque a mí me sirvió muchísimo ordenarlo.
 
 Por qué lo armé, contado por mí, está en [`BIENVENIDA.md`](BIENVENIDA.md). Es lo primero que vas a leer cuando empieces.
 
 La idea de fondo cabe en una línea: **cada cosa que digas sobre ti tiene que tener una prueba detrás.** Un entrevistador senior huele el adorno en una pregunta, y ahí se cae todo lo que digas después. La precisión es lo único que no se puede falsificar.
+
+Y una cosa más, que a mí me costó entender: esto no es para escribir un CV bonito. Es para saber a qué trabajos aplicar, cuánto pagan, y llegar a esa entrevista sabiendo qué vas a decir.
 
 ## Qué necesitas
 
