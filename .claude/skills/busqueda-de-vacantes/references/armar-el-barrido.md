@@ -30,9 +30,11 @@ python3 herramientas/barrido.py probar https://jobs.lever.co/empresa --agregar
 Después se corre una vez y se miran los hallazgos:
 
 ```bash
-python3 herramientas/barrido.py barrer
+python3 herramientas/barrido.py
 python3 herramientas/barrido.py hallazgos
 ```
+
+(Sin subcomando, barre. `barrer` no existe: si se escribe, el script imprime la ayuda.)
 
 ⚠️ **El barrido trae el título, la ubicación y el link. No trae el texto del aviso**, y los lunes del paso 3 se arman con las responsabilidades. Así que de los hallazgos se eligen entre 15 y 30, se abren, y se guardan en `mi-cerebro/avisos/`, uno por archivo, con la fecha y el link arriba. Eso es lo que el paso 3 va a leer.
 
