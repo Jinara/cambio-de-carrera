@@ -21,7 +21,7 @@ Este ejercicio muestra lunes, no títulos. La persona elige entre dos descripcio
 
 2. **Avisos reales.** Entre 15 y 30, de puestos que está considerando **y de algunos que cree que no quiere**. Sin los que cree que no quiere, el ejercicio solo confirma lo que ya pensaba.
 
-   **Ofrécele el barrido antes de mandarla a juntarlos a mano.** Con dos o tres títulos tentativos y los contrarios, el barrido en modo exploración le trae los avisos en minutos: está en la skill `busqueda-de-vacantes`, en "El barrido de exploración". Juntarlos a mano son horas, y es donde la gente abandona el método y se va con un CV genérico.
+   **Ofrécele el barrido antes de mandarla a juntarlos a mano.** Con dos o tres títulos tentativos y los contrarios, el barrido en modo exploración le trae los avisos en minutos: está en la skill `busqueda-de-vacantes`, en "El barrido de exploración". Juntarlos a mano son horas, y es la parte más pesada del método. Saltearla deja un CV genérico.
 
    Guárdalos en `mi-cerebro/avisos/` (uno por archivo, con la fecha y el link arriba), porque los avisos se cierran y el link muere.
 

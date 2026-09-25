@@ -46,7 +46,7 @@ Antes del detalle, esto es lo que te va a pedir cada paso y lo que te devuelve. 
 | **7. Simulacro** | Tu voz, grabada | Qué se te cae cuando lo dices en voz alta, comparando tus tomas contra el reloj y contra tu propia evidencia |
 | **La búsqueda** | Las empresas que te interesan | Un registro de cada vacante, los avisos nuevos que aparecen solos, y el tablero de cómo va |
 
-**El paso 3 es el que contesta lo que viniste a buscar.** Es también el que más gente se salta, porque el CV se parece a lo que ya conocía y esto no. El método te frena y te dice qué se rompe.
+**El paso 3 es el que contesta lo que viniste a buscar.** Es también el que más cuesta empezar, porque el CV se parece a lo que ya conocías y esto no. El método te frena y te dice qué se rompe.
 
 ## Los siete pasos
 
@@ -60,7 +60,7 @@ Antes del detalle, esto es lo que te va a pedir cada paso y lo que te devuelve. 
 
 **Es el paso que contesta lo que viniste a buscar**, y termina leyéndotelo: a qué puestos te postulas, con los títulos exactos para buscarlos, cuánto paga cada uno y dónde cae tu objetivo, qué CV le va a cada uno, y qué te falta para el que está más lejos. Los avisos ya no los juntas a mano: el barrido te los trae.
 
-⚠️ Es también el paso que más gente se salta, porque el CV se parece a lo que ya conocía y esto no. El método te frena y te dice qué se rompe: sin este paso terminas con un CV genérico y sin saber a qué postularte.
+⚠️ Es también el que más cuesta empezar, porque el CV se parece a lo que ya conocías y esto no. El método te frena y te dice qué se rompe: sin este paso terminas con un CV genérico y sin saber a qué postularte.
 
 **4. CV y postulación.** Un CV maestro que sale solo de la evidencia verificada, y una variante por cada tipo de puesto, que nunca contradice al maestro. Un script lo pasa a PDF y se niega a generarlo si encuentra un número que ya corregiste. Y para cada aviso, **primero el veredicto por escrito** (qué pide, qué cumples, qué te falta, si conviene) y recién después las respuestas del formulario. Un formulario lleno empuja a enviar, así que la decisión se toma antes de llenarlo. Al botón de Enviar le das clic tú.
 

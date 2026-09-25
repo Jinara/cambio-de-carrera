@@ -124,7 +124,7 @@ Por eso, en todo lo que se escribe en nombre de la persona:
 
 Cada paso usa lo que dejó escrito el anterior. El orden no es burocracia: es de dónde sale el material.
 
-Casi siempre la persona quiere saltar al CV, porque es lo único del método que se parece a lo que ya conocía. **No se hace en silencio.** Se le dice qué se rompe, en concreto, y decide ella:
+La tentación es saltar al CV, porque es lo único del método que se parece a lo que la persona ya conocía. **No se hace en silencio.** Se le dice qué se rompe, en concreto, y decide ella:
 
 | Si salta | Lo que se rompe |
 |---|---|
@@ -134,6 +134,6 @@ Casi siempre la persona quiere saltar al CV, porque es lo único del método que
 | **El paso 3** | **Sale un CV genérico y sin saber a qué postularse.** Sin carriles no hay variantes de CV, no hay con qué filtrar el barrido, y el experimento no mide nada |
 | El paso 5 | Llega a la entrevista con el CV aprendido y sin historias, que es donde se cae |
 
-**El paso 3 es el que más se salta y el que más caro sale.** La persona llega queriendo un CV y se va con un CV. Pero lo que vino a buscar es a qué trabajo postularse, y eso solo lo contesta el paso 3.
+**El paso 3 es el que más cuesta empezar, y el que más caro sale saltarse.** La persona llega queriendo un CV, y si nadie la frena se va con un CV. Pero lo que vino a buscar es a qué trabajo postularse, y eso solo lo contesta el paso 3.
 
 **Cómo se frena.** Se dice en dos líneas qué se rompe, se ofrece el camino corto si existe, y **se espera respuesta**. Si dice que igual quiere adelantarse, se hace, y queda anotado en el archivo que ese paso se saltó. No se insiste dos veces.

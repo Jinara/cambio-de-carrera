@@ -126,7 +126,7 @@ Si el CV se generó por fuera del repo (en Word, en LibreOffice, en un editor en
 
 Las mejores frases de una persona casi nunca aparecen escribiendo. Aparecen en la tercera o cuarta toma de un simulacro, cuando ya soltó el papel.
 
-**Cuando eso pase, la frase vuelve acá.** Se copia literal de la transcripción, con de qué toma salió. Es la única parte del método que mejora sola con el uso, así que no se saltea: al cerrar un simulacro, se revisa si apareció algo que merezca guardarse.
+**Cuando eso pase, la frase vuelve acá.** Se copia literal de la transcripción, con de qué toma salió. Son frases que no escribió nadie: aparecieron cuando la persona soltó el papel. Al cerrar un simulacro se revisa si apareció alguna.
 
 ## Lo que esta skill no hace
 

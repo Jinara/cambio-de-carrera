@@ -96,5 +96,3 @@ Apareció en el primer borrador del CV y Toffy no se reconoció:
 | *"Yo era la que se iba al local a preguntar por qué"* | Tiendas Lumbrera, pregunta 1, toma c | Reemplazó a "fui a los locales" en el renglón 3 del papel, y pasó a la historia 1 del banco |
 
 Esa frase no estaba en ningún documento ni en el papel del simulacro. Salió hablando, en la tercera toma, después de dos intentos que sonaban a currículum leído. Dice mejor lo mismo y es suya.
-
-Es el argumento entero de este archivo: la mejor línea de Toffy no la escribió nadie, la dijo ella cuando dejó de leer.

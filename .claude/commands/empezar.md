@@ -55,6 +55,6 @@ Y arranca la skill que toca. No le preguntes si quiere empezar: escribió `/empe
 - **Sin el paso 3**, y este es el que más duele: sale un CV genérico y **sin saber a qué postularse**. Sin carriles no hay variantes de CV, el barrido no tiene con qué filtrar y el experimento no mide nada. Dilo así de claro: *"El CV lo armamos igual si quieres, pero vas a terminar con uno solo y parejo para todo, y sin la lista de a qué puestos apuntar, que es lo que viniste a buscar."*
 - **Sin `mi-voz`**, el CV sale con las palabras del molde.
 
-**Y ofrece el camino corto antes de que decida.** Casi siempre la persona se salta el paso 3 porque cree que son horas de juntar avisos a mano, y ya no lo es: el barrido en modo exploración le trae 25 avisos reales en minutos (skill `busqueda-de-vacantes`, parte del barrido). Díselo con ese número.
+**Y ofrece el camino corto antes de que decida.** El paso 3 se salta muchas veces porque parece horas de juntar avisos a mano, y ya no lo es: con dos o tres títulos que crea que quiere y dos o tres que crea que no, el barrido en modo exploración se los trae en minutos (skill `busqueda-de-vacantes`, parte del barrido). Dile eso antes de que decida.
 
 Se espera la respuesta. Si igual quiere adelantarse, se hace, y queda anotado en el archivo que ese paso se saltó. No se insiste dos veces.

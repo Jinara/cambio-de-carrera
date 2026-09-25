@@ -175,8 +175,7 @@ def revisar_cv(texto):
                               f"«{palabra}» no dice qué decidiste. Mira la lista de verbos de AGENTS.md"))
         elif nombra_el_puesto(palabra):
             hallazgos.append((n, cuerpo[:60],
-                              f"empieza con «{palabra}», que nombra el puesto y lo firmaría "
-                              "cualquiera que lo haya ocupado. Empieza por lo que hiciste tú"))
+                              f"empieza con «{palabra}», que nombra el puesto. Empieza por lo que hiciste tú"))
 
     cerrar_bloque()
 
@@ -184,6 +183,15 @@ def revisar_cv(texto):
         hallazgos.append((0, "toda la experiencia",
                           "ninguna viñeta tiene un número. No tienen que ser grandes, tienen que ser tuyos"))
     return sorted(hallazgos, key=lambda h: h[0])
+
+
+NOTA_PUESTO = ("   Una viñeta que empieza nombrando el puesto la firmaría igual cualquiera que lo haya\n"
+               "   ocupado antes. Empieza por el verbo de lo que hiciste tú: «Orienté», «Diseñé», «Corté».")
+
+
+def nota_al_pie(hallazgos):
+    """La explicación larga va una vez al final, no pegada a cada línea."""
+    return NOTA_PUESTO if any("nombra el puesto" in q for _, _, q in hallazgos) else None
 
 
 def frenar(texto, origen, lista=None, cv=None):
@@ -198,13 +206,16 @@ def frenar(texto, origen, lista=None, cv=None):
         for n, visto, que_hacer in sorted(hallazgos, key=lambda h: h[0]):
             donde = f"línea {n}" if n else "en todo el archivo"
             print(f"   {donde}: «{visto}» → {que_hacer}")
+        nota = nota_al_pie(hallazgos)
+        if nota:
+            print(f"\n{nota}")
         sys.exit(1)
 
 
 if __name__ == "__main__":
     args = [a for a in sys.argv[1:] if a != "--cv"]
     modo_cv = "--cv" in sys.argv[1:]
-    total = 0
+    total, notas = 0, set()
     for arg in args or ["-"]:
         if arg == "-":
             texto, lista = sys.stdin.read(), buscar_lista(pathlib.Path.cwd())
@@ -215,5 +226,10 @@ if __name__ == "__main__":
             donde = f"{arg}:{n}" if n else f"{arg}"
             print(f"{donde}: «{visto}» → {que_hacer}")
             total += 1
-    print("✅ Listo para salir." if not total else f"⛔ {total} cosas para arreglar.")
+        nota = nota_al_pie(hallazgos)
+        if nota:
+            notas.add(nota)
+    for nota in notas:
+        print(f"\n{nota}")
+    print("\n✅ Listo para salir." if not total else f"\n⛔ {total} cosas para arreglar.")
     sys.exit(1 if total else 0)

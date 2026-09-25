@@ -79,4 +79,4 @@ Léelo en voz alta con la persona delante. Dos preguntas:
 1. **¿Esto lo podrías decir mañana en una entrevista, con estas palabras?** Si no, no es suya.
 2. **¿Esta línea la podría firmar igual quien tuvo tu puesto antes?** Si sí, todavía nombra el puesto y no a ella.
 
-La segunda es la que más se salta. Es la que el freno de `chequear.py --cv` revisa sola, pero solo puede ver el arranque de la frase. El resto lo ven las dos personas leyendo.
+La segunda es la más fácil de pasar por alto. Es la que el freno de `chequear.py --cv` revisa sola, pero solo puede ver el arranque de la frase. El resto lo ven las dos personas leyendo.

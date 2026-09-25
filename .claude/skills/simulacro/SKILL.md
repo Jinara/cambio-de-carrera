@@ -72,7 +72,7 @@ Siempre en este orden, y cómo leer cada cosa está en `references/rubrica.md`:
 
 **Las frases buenas de la persona se recuperan.** Si en una toma dijo algo mejor que lo que decía el papel, se le devuelve en el papel siguiente, con sus palabras.
 
-**Y se guardan en `01-mi-voz.md`**, en la tabla del final, con de qué toma salieron. Es la única parte del método que mejora sola con el uso: esas frases no las escribió nadie, aparecieron cuando la persona soltó el papel, y después sirven para el CV y para las respuestas de los formularios. Al cerrar un simulacro se revisa si apareció alguna. También se escucha lo contrario: si bajo presión volvió a la versión encogida de la tabla de «lo que me achico», eso es lo que hay que entrenar.
+**Y se guardan en `01-mi-voz.md`**, en la tabla del final, con de qué toma salieron. Esas frases no las escribió nadie: aparecieron cuando la persona soltó el papel, y después sirven para el CV y para las respuestas de los formularios. Al cerrar un simulacro se revisa si apareció alguna. También se escucha lo contrario: si bajo presión volvió a la versión encogida de la tabla de «lo que me achico», eso es lo que hay que entrenar.
 
 ### 7. Regrabar, o cortar
 
