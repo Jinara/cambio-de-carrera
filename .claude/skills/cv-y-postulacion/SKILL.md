@@ -20,7 +20,7 @@ Lee `AGENTS.md` antes de empezar. Las reglas 1, 3 y 10 son las de este paso.
 
 **Qué es:** la versión que contiene todo. No se manda nunca. Las variantes son recortes de este archivo, **nunca reescrituras**, y así ninguna versión puede contradecir a otra.
 
-**De dónde sale:** solo de `02-evidencia.md`. Lo `[SIN FUENTE]` no entra.
+**De dónde sale:** los hechos y los números, solo de `02-evidencia.md`. Lo `[SIN FUENTE]` no entra. **Los verbos y las palabras, de `01-mi-voz.md`**, que dice con qué verbo nombra ella lo que hizo y qué palabras de su oficio usa de verdad. Léelo antes de escribir la primera viñeta.
 
 **Cómo se escribe:** las reglas completas están en `references/cv-maestro-y-variantes.md`. Las que no se negocian:
 
@@ -28,7 +28,8 @@ Lee `AGENTS.md` antes de empezar. Las reglas 1, 3 y 10 son las de este paso.
 2. **Fechas idénticas a LinkedIn**, al mes. Si no coinciden, se corrige LinkedIn o el CV, con el documento del paso 2 como árbitro.
 3. **Cronológico inverso.** Un CV reordenado por relevancia dispara la pregunta "¿qué esconde?" y los sistemas de selección lo leen peor.
 4. **Los números chicos se presentan como criterio, no como magnitud.** "Decidí qué locales entraban al piloto y con qué regla", no "gestioné la operación de la cadena".
-5. **La prueba de los cinco minutos.** Por cada línea: ¿la persona puede hablar cinco minutos de eso, con detalle, si se lo preguntan? Si no, se saca. No porque suene mal: porque se cae en la entrevista y arrastra a las demás.
+5. **Ninguna viñeta empieza nombrando el puesto.** "Coordinación del proceso de selección de proveedores" la firma igual cualquiera que haya tenido ese cargo. Empieza por lo que hizo la persona, con el verbo que usa ella (regla 12). El freno lo revisa solo, pero solo ve el arranque de la frase: el resto lo ves tú.
+6. **La prueba de los cinco minutos.** Por cada línea: ¿la persona puede hablar cinco minutos de eso, con detalle, si se lo preguntan? Si no, se saca. No porque suene mal: porque se cae en la entrevista y arrastra a las demás.
 
 Copia `plantillas/04-cv.md` para arrancar. Muéstrale el maestro completo antes de escribirlo.
 
@@ -46,7 +47,11 @@ Cuando están aprobadas, se generan:
 python3 herramientas/generar-cv.py mi-cerebro/cv/cv-*.md
 ```
 
-El script revisa antes de generar. Si encuentra un número de `numeros-retirados.txt`, un dato marcado `[SIN FUENTE]` o una raya larga, **no genera ninguno** y dice en qué línea está. Se arregla el markdown, no el PDF.
+El script revisa antes de generar. Si encuentra un número de `numeros-retirados.txt`, un dato marcado `[SIN FUENTE]`, una raya larga, una viñeta que empieza nombrando el puesto, un bloque de experiencia vacío o un CV sin un solo número, **no genera ninguno** y dice en qué línea está. Se arregla el markdown, no el PDF.
+
+Para revisar sin generar: `python3 herramientas/chequear.py --cv mi-cerebro/cv/cv-<carril>.md`.
+
+Si una línea de verdad tiene que quedar así, se le pone `<!-- voz-ok -->` al final y se salta esa sola. Es para los casos raros. Si hace falta en tres viñetas, el problema es el CV.
 
 Formato de salida: una columna, texto seleccionable, sin tablas, sin íconos, sin foto. Es lo que los sistemas de selección leen sin romper.
 

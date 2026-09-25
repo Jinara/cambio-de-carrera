@@ -14,7 +14,7 @@ Lee `AGENTS.md` antes de empezar. Las reglas 6, 7 y 8 son las de este paso.
 
 ## De dónde sale todo
 
-Solo de `02-evidencia.md` y de `01-descubrimiento.md`. Una historia no puede tener un número que no esté verificado en el paso 2, y no puede tener un hecho que no esté en el 1. Si al armarla aparece algo nuevo, primero va al archivo que corresponde, con su fuente, y después a la historia.
+Solo de `02-evidencia.md`, de `01-descubrimiento.md` y de `01-mi-voz.md`. Las frases literales de `01-mi-voz.md` son las que hacen que una historia se sostenga dos minutos: contada con las palabras de otro, se cae. Una historia no puede tener un número que no esté verificado en el paso 2, y no puede tener un hecho que no esté en el 1. Si al armarla aparece algo nuevo, primero va al archivo que corresponde, con su fuente, y después a la historia.
 
 Copia `plantillas/06-banco-de-historias.md` y `plantillas/07-narrativa.md` si no existen (regla 5).
 

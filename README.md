@@ -67,6 +67,7 @@ Tus archivos en `mi-cerebro/`:
 | | Qué es |
 |---|---|
 | `01-descubrimiento.md` | Lo que tu CV no sabe, sacado a preguntas |
+| `01-mi-voz.md` | Cómo hablas tú de tu trabajo: tus verbos, las palabras de tu oficio y lo que te achicas, para que el CV no salga del molde |
 | `02-evidencia.md` | Todo lo que hiciste, con la fuente al lado, y lo que tu evidencia NO cubre declarado arriba |
 | `03-que-trabajo-quiero.md` | El puesto objetivo elegido reaccionando al trabajo, tus criterios y lo que no |
 | `04-cv-maestro.md` y `cv/` | El CV con todo, sus variantes, y los PDF |

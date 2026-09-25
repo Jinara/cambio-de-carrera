@@ -60,7 +60,7 @@ Se cierra cuando están las tres tandas y se puede escribir la sección final de
 - **Versiones decibles.** Por cada salida que fue difícil, una frase verdadera que se pueda decir en una entrevista sin mentir y sin victimizarse.
 - **Pendientes.** Todo lo `[POR CONFIRMAR]` con qué documento lo resolvería.
 
-Al cerrar, dile qué sigue: el inventario de evidencia (`/empezar` la lleva sola).
+Al cerrar, sigue la skill `mi-voz`, que ordena en `01-mi-voz.md` cómo habla la persona de su trabajo. No son preguntas nuevas: sale de las citas literales que acabas de anotar, y es lo que después evita que el CV suene a molde. Después de eso viene el inventario de evidencia (`/empezar` la lleva sola).
 
 ## Lo que esta skill no hace
 

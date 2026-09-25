@@ -48,7 +48,7 @@ Fórmula: **verbo de decisión + qué + resultado con su contra qué**.
 | Floja | Fuerte |
 |---|---|
 | Responsable del seguimiento de stock | Diseñé la alerta de reposición que bajó los quiebres de 9,1% a 6,4% en el piloto de 12 locales |
-| Apoyo en proyectos de mejora | Propuse reducir las alertas de todas a las 30 más críticas por local, después de visitar cuatro locales, y la tasa de alertas atendidas pasó de 11% a 58% |
+| Apoyo en proyectos de mejora | Propuse reducir las alertas de todas a las 15 más críticas por local, después de visitar cuatro locales, y la tasa de alertas atendidas pasó de 11% a 58% |
 | Manejo de SQL y Looker | Armé el tablero de salud de stock que usan 31 personas por semana |
 
 Verbos que funcionan: definí, diseñé, decidí, propuse (y se aprobó), dirigí, negocié, corté, medí, reemplacé, encontré. Verbos que no dicen nada: apoyé, participé, colaboré, fui parte de, responsable de.
@@ -82,7 +82,27 @@ Verbos que funcionan: definí, diseñé, decidí, propuse (y se aprobó), dirig�
 
 Los detectores de "texto escrito por IA" se equivocan mucho, sobre todo con gente que escribe en su segundo idioma, y los sistemas de selección no los usan para filtrar. La detección real es humana y pasa en la repregunta: alguien lee una línea genérica y pregunta "¿y eso cómo lo hiciste?".
 
-Así que la defensa es la misma regla de siempre: especificidad. Una línea con un número verificado y un verbo de decisión no suena a nadie más.
+La primera defensa es la especificidad: una línea con un número verificado y un verbo de decisión no suena a nadie más.
+
+**Pero la especificidad sola no alcanza, y esta es la parte que se salta casi siempre.** Un CV puede tener todos los números verificados del mundo y seguir sin ser de nadie, porque los números dicen qué pasó y no dicen quién lo decidió. Lo que borra a la persona es empezar la viñeta nombrando la función del puesto:
+
+| Nombra el puesto | Nombra a la persona |
+|---|---|
+| Coordinación del proceso de selección de proveedores | Elegí a los 3 proveedores nuevos y corté con 2 que llegaban tarde |
+| Atención de consultas de clientes | Contesté las 40 consultas diarias del turno tarde y armé las 12 respuestas que hoy usa todo el equipo |
+| Apoyo en el dictado de clases | Dicté las prácticas de estadística para 60 estudiantes, en 4 ciclos |
+
+Las de la izquierda no son mentira. Las firma igual cualquiera que haya tenido ese cargo antes.
+
+Por eso el CV se escribe con `01-mi-voz.md` abierto: de ahí salen los verbos que usa la persona, las palabras de su oficio, y la tabla de lo que se achica (que es lo que evita repetir su propia versión encogida). Es la regla 12 de `AGENTS.md`.
+
+El freno lo revisa antes de generar, y también se puede correr solo:
+
+```bash
+python3 herramientas/chequear.py --cv mi-cerebro/cv/cv-<carril>.md
+```
+
+Solo ve el arranque de cada viñeta, así que no reemplaza a leer el CV. Lo que él no puede ver es si la palabra es de la persona.
 
 Y las de `AGENTS.md`: nada de raya larga, nada de ritmo de tres, nada de "no es X, es Y".
 
@@ -91,6 +111,8 @@ Y las de `AGENTS.md`: nada de raya larga, nada de ritmo de tres, nada de "no es 
 - [ ] Todas las fechas coinciden con LinkedIn, al mes.
 - [ ] Ningún `[SIN FUENTE]` ni `[POR CONFIRMAR]`.
 - [ ] La prueba de los cinco minutos pasó línea por línea.
+- [ ] Ninguna viñeta empieza nombrando el puesto, y los verbos son los de `01-mi-voz.md`.
+- [ ] Ninguna palabra que la persona no usaría (las de la lista negra de `01-mi-voz.md`).
 - [ ] Nada que contradiga a otra variante.
 - [ ] `python3 herramientas/generar-cv.py` corrió sin frenos.
 - [ ] La persona abrió el PDF y lo leyó entero.

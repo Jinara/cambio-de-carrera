@@ -27,6 +27,7 @@ Mira `mi-cerebro/` y decide:
 |---|---|
 | No existe `01-descubrimiento.md` | Paso 1, skill `descubrimiento` |
 | Existe `01-descubrimiento.md` y su sección "Dónde retomamos" dice que falta algo | Paso 1, retomando desde ahí |
+| `01-descubrimiento.md` está cerrado y no existe `01-mi-voz.md` | Skill `mi-voz`, que cierra el paso 1. Son 15 minutos y no hay preguntas nuevas. **Si además ya hay CV en `cv/`**, dile que después van a repasarlo con la voz al lado, y córrele el freno (`chequear.py --cv`) para mostrarle qué sale |
 | No existe `02-evidencia.md` | Paso 2, skill `inventario-de-evidencia` |
 | `02-evidencia.md` no tiene la tabla de límites completa | Paso 2, retomando |
 | No existe `03-que-trabajo-quiero.md`, o no tiene la sección de carriles | Paso 3, skill `ejercicio-de-preferencias` |
