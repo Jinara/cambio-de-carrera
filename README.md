@@ -32,7 +32,7 @@ Para generar el CV en PDF hace falta Python 3 y Chrome (o Chromium, Edge o Brave
 
 ## Qué pones y qué recibes
 
-Antes del detalle, esto es lo que te va a pedir cada paso y lo que te devuelve. **La mitad de los pasos no te piden juntar nada nuevo**: trabajan con lo que ya quedó escrito en los anteriores.
+Esto es lo que te pide cada paso y lo que te da. **Tres de los pasos no te piden juntar nada nuevo**: trabajan con lo que ya quedó escrito en los anteriores.
 
 | Paso | Lo que pones | Lo que recibes |
 |---|---|---|
@@ -58,9 +58,9 @@ Antes del detalle, esto es lo que te va a pedir cada paso y lo que te devuelve. 
 
 **3. Qué trabajo quiero.** Ocho pares de "lunes" sacados de avisos reales, sin decirte de qué puesto es cada uno. Eliges lunes, no títulos. Es el paso más raro y el que más descoloca, porque casi siempre el resultado no es el puesto que decías querer. Después se cruza con tres cosas más: lo que puedes probar, lo que piden los avisos (contado, no a ojo) y la plata que necesitas.
 
-**Es el paso que contesta lo que viniste a buscar**, y termina leyéndotelo: a qué puestos te postulas, con los títulos exactos para buscarlos, cuánto paga cada uno y dónde cae tu objetivo, qué CV le va a cada uno, y qué te falta para el que está más lejos. Los avisos ya no los juntas a mano: el barrido te los trae.
+**Es el paso que contesta lo que viniste a buscar**, y termina leyéndotelo: a qué puestos te postulas, con los títulos exactos para buscarlos, cuánto paga cada uno y dónde cae tu objetivo, qué CV le va a cada uno, y qué te falta para el que está más lejos. Los avisos no los juntas tú: el barrido te los trae.
 
-⚠️ Es también el que más cuesta empezar, porque el CV se parece a lo que ya conocías y esto no. El método te frena y te dice qué se rompe: sin este paso terminas con un CV genérico y sin saber a qué postularte.
+⚠️ Y es el que más cuesta empezar. Si te lo saltas, el método te frena y te dice qué pasa: terminas con un CV genérico y sin saber a qué postularte.
 
 **4. CV y postulación.** Un CV maestro que sale solo de la evidencia verificada, y una variante por cada tipo de puesto, que nunca contradice al maestro. Un script lo pasa a PDF y se niega a generarlo si encuentra un número que ya corregiste. Y para cada aviso, **primero el veredicto por escrito** (qué pide, qué cumples, qué te falta, si conviene) y recién después las respuestas del formulario. Un formulario lleno empuja a enviar, así que la decisión se toma antes de llenarlo. Al botón de Enviar le das clic tú.
 

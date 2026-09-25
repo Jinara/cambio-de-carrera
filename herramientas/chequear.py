@@ -181,7 +181,7 @@ def revisar_cv(texto):
 
     if vinetas_totales and not vinetas_con_numero:
         hallazgos.append((0, "toda la experiencia",
-                          "ninguna viñeta tiene un número. No tienen que ser grandes, tienen que ser tuyos"))
+                          "ninguna viñeta tiene un número. Los chicos sirven igual, mientras sean tuyos"))
     return sorted(hallazgos, key=lambda h: h[0])
 
 
