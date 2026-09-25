@@ -122,6 +122,20 @@ class Filtros(unittest.TestCase):
         self.assertEqual(barrido.carriles_del_titulo("Product Owner E-commerce", CONFIG), ["A", "B"])
         self.assertEqual(barrido.carriles_del_titulo("Senior Product Owner", CONFIG), [])
 
+    def test_el_barrido_de_exploracion_no_necesita_carriles(self):
+        """Antes del paso 3 todavía no hay carriles A y B, y el barrido tiene que servir igual.
+
+        El modo exploración es lo que evita que la persona junte 30 avisos a mano, que es
+        donde abandona el método. Depende de que la clave del carril pueda ser cualquier
+        nombre, así que si esto se rompe, se rompe en silencio.
+        """
+        explora = {"titulos": {"explorar": ["analista de datos", "data analyst"],
+                               "contrario": ["docente", "coordinador de laboratorio"]},
+                   "titulos_no": ["senior", "director"]}
+        self.assertEqual(barrido.carriles_del_titulo("Analista de Datos", explora), ["explorar"])
+        self.assertEqual(barrido.carriles_del_titulo("Docente de Estadística", explora), ["contrario"])
+        self.assertEqual(barrido.carriles_del_titulo("Senior Data Analyst", explora), [])
+
     def test_board_de_url(self):
         self.assertEqual(barrido.board_de_url("https://job-boards.greenhouse.io/acme/jobs/123"), ("greenhouse", "acme"))
         self.assertEqual(barrido.board_de_url("jobs.lever.co/bodegauno"), ("lever", "bodegauno"))

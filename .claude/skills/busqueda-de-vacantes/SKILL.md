@@ -18,7 +18,11 @@ Lee `AGENTS.md` antes de empezar. Las reglas de este paso son la 3 (encontrar un
 
 ## Cuándo se ofrece
 
-Cuando hay al menos una variante de CV en `mi-cerebro/cv/`. Antes no sirve: sin los carriles del paso 3 no hay con qué filtrar, y sin CV no hay con qué postular a lo que aparezca.
+**Para la búsqueda completa** (registro, seguimiento, correo, tablero): cuando hay al menos una variante de CV en `mi-cerebro/cv/`. Antes no hay con qué postular a lo que aparezca.
+
+**Para el barrido en modo exploración: antes del paso 3, y conviene ofrecerlo siempre.** El paso 3 necesita entre 15 y 30 avisos reales, y juntarlos a mano es la barrera más alta del método: es donde la gente abandona y termina con un CV genérico y sin saber a qué postularse. El barrido los trae en minutos.
+
+Es el mismo motor con otra configuración, y no necesita carriles todavía. Cómo se arma está en la parte del barrido, en "El barrido de exploración".
 
 ---
 

@@ -72,7 +72,12 @@
 | Título que se busca | | |
 | Tipo de empresa | | |
 | Distancia honesta | | |
+| Rango de plata del puesto | | |
+| Dónde cae mi objetivo | | |
+| Títulos exactos para buscar | | |
 | Variante de CV | `cv/cv-a-....md` | `cv/cv-b-....md` |
+
+Los títulos exactos son los que se van a poner en `barrido.json` y los que se escriben en los buscadores. Van tal como publican las empresas, en los idiomas en que publican.
 
 ### Criterios de selección
 
@@ -88,3 +93,15 @@
 - Postulaciones por carril:
 - Período:
 - Fecha de revisión:
+
+---
+
+## Lo que sale de acá
+
+Esto es lo que la persona vino a buscar. Se le lee al cerrar el paso.
+
+1. **A qué me postulo:** (los títulos de los dos carriles)
+2. **Cuánto paga:** (el rango de cada uno, y dónde cae su objetivo)
+3. **Qué CV le va a cada uno:** (las dos variantes que se arman en el paso 4)
+4. **Qué le falta al carril más lejano:** (la distancia honesta, dicha sin maquillar)
+5. **Qué sigue:** el paso 4 arma las dos variantes, y el barrido queda filtrando con los títulos de arriba.

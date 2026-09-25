@@ -2,6 +2,42 @@
 
 Los filtros viven en `mi-cerebro/barrido.json`. El de Toffy está en `ejemplo/barrido.json` y sirve de modelo.
 
+## El barrido de exploración, antes del paso 3
+
+Sirve para juntar los avisos que el paso 3 necesita, cuando todavía no hay carriles. Es el mismo motor: lo único que cambia es qué se pone en `titulos`.
+
+**La clave del carril es un nombre cualquiera**, así que en vez de `A` y `B` van dos grupos:
+
+```json
+"titulos": {
+  "explorar": ["analista de datos", "data analyst", "salud publica"],
+  "contrario": ["docente", "coordinador de laboratorio", "asistente de investigacion"]
+}
+```
+
+- **`explorar`** son los dos o tres títulos que la persona cree que quiere. Salen de lo que dijo en la tanda B del paso 1, no de un catálogo de puestos.
+- **`contrario`** son los puestos que cree que **no** quiere, y no es opcional. Sin ellos el ejercicio de los lunes solo confirma lo que ya pensaba, y el paso 3 deja de servir. Se arman con lo que hace hoy y con el puesto vecino obvio de su rubro.
+
+**Las ubicaciones** salen de dónde puede trabajar, que en esta altura del método ya se sabe por la tanda C del paso 1.
+
+**Las empresas**, entre diez y quince del tipo que le interesa, probadas una por una:
+
+```bash
+python3 herramientas/barrido.py probar "Nombre de la empresa"
+python3 herramientas/barrido.py probar https://jobs.lever.co/empresa --agregar
+```
+
+Después se corre una vez y se miran los hallazgos:
+
+```bash
+python3 herramientas/barrido.py barrer
+python3 herramientas/barrido.py hallazgos
+```
+
+⚠️ **El barrido trae el título, la ubicación y el link. No trae el texto del aviso**, y los lunes del paso 3 se arman con las responsabilidades. Así que de los hallazgos se eligen entre 15 y 30, se abren, y se guardan en `mi-cerebro/avisos/`, uno por archivo, con la fecha y el link arriba. Eso es lo que el paso 3 va a leer.
+
+**Cuando el paso 3 termine y existan los carriles de verdad**, se reemplazan `explorar` y `contrario` por `A` y `B`, con los títulos que salieron. Los hallazgos viejos quedan: los que no encajen en ningún carril se descartan con su motivo.
+
 ```json
 {
  "empresas": [

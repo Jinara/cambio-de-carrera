@@ -49,4 +49,12 @@ Y arranca la skill que toca. No le preguntes si quiere empezar: escribió `/empe
 
 ## Si la persona quiere saltar a un paso
 
-Puede. Pero si pide el paso 4 sin tener el 2, dile de frente qué pasa: el CV solo puede sacar números de la evidencia, así que sin el paso 2 sale un CV sin números o con números sin fuente. Y que decida.
+**Se frena y se le dice qué se rompe.** Es la regla 13, y la tabla de qué se rompe en cada salto está ahí. En corto:
+
+- **Sin el paso 2**, el CV sale sin números o con números que no va a poder defender.
+- **Sin el paso 3**, y este es el que más duele: sale un CV genérico y **sin saber a qué postularse**. Sin carriles no hay variantes de CV, el barrido no tiene con qué filtrar y el experimento no mide nada. Dilo así de claro: *"El CV lo armamos igual si quieres, pero vas a terminar con uno solo y parejo para todo, y sin la lista de a qué puestos apuntar, que es lo que viniste a buscar."*
+- **Sin `mi-voz`**, el CV sale con las palabras del molde.
+
+**Y ofrece el camino corto antes de que decida.** Casi siempre la persona se salta el paso 3 porque cree que son horas de juntar avisos a mano, y ya no lo es: el barrido en modo exploración le trae 25 avisos reales en minutos (skill `busqueda-de-vacantes`, parte del barrido). Díselo con ese número.
+
+Se espera la respuesta. Si igual quiere adelantarse, se hace, y queda anotado en el archivo que ese paso se saltó. No se insiste dos veces.

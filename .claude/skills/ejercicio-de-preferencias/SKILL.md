@@ -19,9 +19,13 @@ Este ejercicio muestra lunes, no títulos. La persona elige entre dos descripcio
 
 1. **`01-descubrimiento.md` y `02-evidencia.md`.** Del primero salen los momentos de energía y los criterios que ya aparecieron. Del segundo, qué puede probar hoy.
 
-2. **Avisos reales.** Pídele entre 15 y 30, de puestos que está considerando **y de algunos que cree que no quiere**. Links o texto pegado. Sin los que cree que no quiere, el ejercicio solo confirma lo que ya pensaba.
+2. **Avisos reales.** Entre 15 y 30, de puestos que está considerando **y de algunos que cree que no quiere**. Sin los que cree que no quiere, el ejercicio solo confirma lo que ya pensaba.
+
+   **Ofrécele el barrido antes de mandarla a juntarlos a mano.** Con dos o tres títulos tentativos y los contrarios, el barrido en modo exploración le trae los avisos en minutos: está en la skill `busqueda-de-vacantes`, en "El barrido de exploración". Juntarlos a mano son horas, y es donde la gente abandona el método y se va con un CV genérico.
 
    Guárdalos en `mi-cerebro/avisos/` (uno por archivo, con la fecha y el link arriba), porque los avisos se cierran y el link muere.
+
+   ⚠️ **Sin avisos no se hace el ejercicio.** No se inventan los lunes ni se sacan de lo que uno sabe de esos puestos: el ejercicio mide la reacción de la persona al trabajo real que se está ofreciendo hoy en su mercado, y con lunes inventados no mide nada.
 
 ## Cómo se arman los pares
 
@@ -67,4 +71,12 @@ Casi nunca cierran los cuatro a la vez. Cuando no cierran, se hace explícito qu
 
 ⚠️ Los números de plata quedan en `mi-cerebro/`. No van al CV, no van a LinkedIn, y en un formulario se escribe solo el que se decidió para ese formulario.
 
-Al cerrar, dile qué sigue: el CV y las postulaciones (`/empezar` la lleva sola).
+## Al cerrar, léele lo que sale
+
+**El paso 3 es el que contesta lo que la persona vino a buscar**, y es fácil que no se dé cuenta, porque queda repartido en un archivo largo lleno de tablas.
+
+Así que al final se escribe la sección "Lo que sale de acá" y **se le lee en voz alta**, en cinco puntos: a qué se postula, cuánto paga, qué CV le va a cada carril, qué le falta al carril más lejano, y qué sigue.
+
+Si el puesto que decía querer al empezar no quedó en ningún carril, se dice ahí, con los pares y el conteo de avisos que lo sostienen. Es el hallazgo que vale el ejercicio entero y no se entierra en una tabla.
+
+Y después dile qué sigue: el CV y las postulaciones (`/empezar` la lleva sola).

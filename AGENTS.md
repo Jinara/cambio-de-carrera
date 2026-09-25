@@ -119,3 +119,21 @@ Por eso, en todo lo que se escribe en nombre de la persona:
 **Esto no significa escribir como habla.** Las muletillas no van a ningún lado. Lo que se conserva es el verbo, el sustantivo de oficio y qué le parece lo importante. La skill `mi-voz` es la que lo separa.
 
 **Por qué es una regla y no un consejo.** La especificidad sola no alcanza. Un CV puede tener todos los números verificados del mundo y seguir sin sonar a nadie, porque los números dicen qué pasó y no dicen quién lo decidió.
+
+## 13. El método lleva el orden, y adelantarse se frena
+
+Cada paso usa lo que dejó escrito el anterior. El orden no es burocracia: es de dónde sale el material.
+
+Casi siempre la persona quiere saltar al CV, porque es lo único del método que se parece a lo que ya conocía. **No se hace en silencio.** Se le dice qué se rompe, en concreto, y decide ella:
+
+| Si salta | Lo que se rompe |
+|---|---|
+| El paso 1 | No hay materia prima. Todo lo que venga después sale de lo que suena razonable, no de su carrera |
+| `mi-voz` | El CV sale con las palabras del molde, correcto y de nadie (regla 12) |
+| El paso 2 | El CV sale sin números, o con números que no puede defender cuando se los repregunten |
+| **El paso 3** | **Sale un CV genérico y sin saber a qué postularse.** Sin carriles no hay variantes de CV, no hay con qué filtrar el barrido, y el experimento no mide nada |
+| El paso 5 | Llega a la entrevista con el CV aprendido y sin historias, que es donde se cae |
+
+**El paso 3 es el que más se salta y el que más caro sale.** La persona llega queriendo un CV y se va con un CV. Pero lo que vino a buscar es a qué trabajo postularse, y eso solo lo contesta el paso 3.
+
+**Cómo se frena.** Se dice en dos líneas qué se rompe, se ofrece el camino corto si existe, y **se espera respuesta**. Si dice que igual quiere adelantarse, se hace, y queda anotado en el archivo que ese paso se saltó. No se insiste dos veces.

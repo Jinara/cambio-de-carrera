@@ -127,7 +127,12 @@ Con 22 avisos, "casi todos piden SQL" se puede decir. Lo del inglés se apoya en
 | Título que se busca | Product Analyst o Product Owner de herramientas para operaciones | Product Owner o Product Manager de e-commerce |
 | Tipo de empresa | Logística, retail o distribución, de 200 a 1.000 personas | Retail con tienda online, mediana |
 | Distancia honesta | Llega con la evidencia de hoy | Un paso más lejos: sin el título y sin números de e-commerce |
+| Rango de plata del puesto | [MONTO] a [MONTO] bruto mensual | [MONTO] a [MONTO] bruto mensual |
+| Dónde cae mi objetivo | En la mediana | Debajo de la mediana, porque entraría sin el título |
+| Títulos exactos para buscar | product analyst · analista de producto · product owner · product operations | e-commerce · ecommerce · tienda online · comercio electrónico |
 | Variante de CV | `cv/cv-a-producto-operaciones.md` | `cv/cv-b-producto-ecommerce.md` |
+
+Los títulos exactos son los que están hoy en `barrido.json`, y los mismos que se escriben en los buscadores.
 
 ### Criterios de selección
 
@@ -150,3 +155,17 @@ Con 22 avisos, "casi todos piden SQL" se puede decir. Lo del inglés se apoya en
 - **Postulaciones por carril:** 5 y 5.
 - **Período:** 9-sep-2026 → 30-sep-2026.
 - **Fecha de revisión:** 7-oct-2026. Qué se mira: cuántas respondieron por carril, quién llamó y qué preguntó.
+
+---
+
+## Lo que sale de acá
+
+Lo que se le leyó a Toffy al cerrar el paso, el 8-sep-2026:
+
+1. **A qué te postulas:** Product Analyst, Product Owner o Product Operations en logística, retail o distribución (carril A). Y Product Owner o Product Manager de e-commerce en retail mediano (carril B).
+2. **Cuánto paga:** [MONTO] a [MONTO] el A, [MONTO] a [MONTO] el B. Tu objetivo cae en la mediana del A y debajo de la mediana del B.
+3. **Qué CV le va a cada uno:** dos variantes, `cv-a-producto-operaciones` y `cv-b-producto-ecommerce`. Mismos hechos y mismas fechas, distinto título, resumen y orden de viñetas.
+4. **Qué le falta al B:** nunca tuviste el título de PM ni un número de e-commerce, y eso no se arregla escribiendo mejor el CV. Por eso va como experimento y no como apuesta.
+5. **Qué sigue:** el paso 4 arma las dos variantes, y el barrido queda filtrando con los títulos de arriba.
+
+⚠️ El puesto que decía querer al empezar (Product Manager en una empresa grande de tecnología) no quedó en ningún carril. Los pares 4, 5 y 8 lo descartaron, y el conteo de avisos lo confirmó: los 5 avisos de tecnología piden experiencia previa con el título, y ella no la tiene.
