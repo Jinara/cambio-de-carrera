@@ -175,8 +175,8 @@ def main(archivos):
 
     # Primero se revisan todos. Si uno tiene algo mal, no sale ninguno.
     for r in rutas:
-        texto = limpiar_md(r.read_text(encoding="utf-8"))
-        frenar(texto, r.name, buscar_lista(r))
+        crudo = r.read_text(encoding="utf-8")
+        frenar(limpiar_md(crudo), r.name, buscar_lista(r), cv=crudo)
 
     chrome = navegador()
     if not chrome:
