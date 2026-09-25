@@ -30,6 +30,24 @@ Con Codex, creas un proyecto con la carpeta del repo y escribes `empezar`, sin l
 
 Para generar el CV en PDF hace falta Python 3 y Chrome (o Chromium, Edge o Brave). Para el simulacro hablado, `whisper-cli` y `ffmpeg`. Qué juntar antes de arrancar y cómo instalar todo está en [`EMPEZAR.md`](EMPEZAR.md).
 
+## Qué pones y qué recibes
+
+Antes del detalle, esto es lo que te va a pedir cada paso y lo que te devuelve. **La mitad de los pasos no te piden juntar nada nuevo**: trabajan con lo que ya quedó escrito en los anteriores.
+
+| Paso | Lo que pones | Lo que recibes |
+|---|---|---|
+| **1. Descubrimiento** | Tu tiempo, tu CV actual y tu LinkedIn en PDF | Lo que tu CV no sabe: por qué te fuiste de verdad de cada lugar, qué patrón se repite, qué credencial estás achicando |
+| **Tu voz** (cierra el 1) | Nada nuevo | Con qué verbos hablas tú de tu trabajo y qué palabras de tu oficio usas, para que nada de lo que venga después salga del molde |
+| **2. Evidencia** | Certificados, contratos, evaluaciones, correos, y acceso a tus datos si los tienes | Cada cosa que puedes afirmar, con su fuente al lado, y escrito qué NO cubre tu evidencia |
+| **3. Qué trabajo quiero** | Dos o tres títulos que crees que quieres, y dos o tres que crees que no. Los avisos los trae el barrido | **A qué puestos postularte**, con los títulos exactos para buscarlos, **cuánto paga cada uno**, qué CV le va a cada uno, y qué te falta para el que está más lejos |
+| **4. CV y postulación** | Nada nuevo para el CV. Para cada postulación, el aviso | Un CV por cada tipo de puesto, en PDF y DOCX que los sistemas de selección leen bien. Y por aviso, el veredicto antes de llenar nada y las respuestas listas para pegar |
+| **5. Banco de historias** | Nada nuevo | Tus historias en 30 segundos y en 2 minutos, y qué historia va con qué pregunta |
+| **6. Brief de entrevista** | El correo de quien te escribió | Qué formato te espera, qué venden y cómo están, qué te van a preguntar y con qué contestas |
+| **7. Simulacro** | Tu voz, grabada | Qué se te cae cuando lo dices en voz alta, comparando tus tomas contra el reloj y contra tu propia evidencia |
+| **La búsqueda** | Las empresas que te interesan | Un registro de cada vacante, los avisos nuevos que aparecen solos, y el tablero de cómo va |
+
+**El paso 3 es el que contesta lo que viniste a buscar.** Es también el que más gente se salta, porque el CV se parece a lo que ya conocía y esto no. El método te frena y te dice qué se rompe.
+
 ## Los siete pasos
 
 ### De saber qué trabajo quieres a mandar el CV
@@ -76,19 +94,26 @@ Tus archivos en `mi-cerebro/`:
 | `03-que-trabajo-quiero.md` | El puesto objetivo elegido reaccionando al trabajo, tus criterios y lo que no |
 | `04-cv-maestro.md` y `cv/` | El CV con todo, sus variantes, y los PDF |
 | `05-postulaciones.md` | Tus datos fijos para formularios, las respuestas que reusas y un veredicto por aviso |
-| `vacantes.json` | Cada vacante: de dónde salió, con qué CV la mandaste y qué pasó después |
-| `barrido.json` y `barrido/` | Los filtros y las empresas del barrido, y lo que fue encontrando |
-| `correo.json` y `correo/` | Qué cuenta lee el lector de correo, y qué correos ya procesó |
 | `06-banco-de-historias.md` | Tus historias en dos largos, y qué historia va con qué pregunta |
 | `07-narrativa.md` | La misma verdad en seis largos, y las preguntas difíciles con su trampa |
 | `entrevistas/<empresa>/` | El brief de cada empresa, los papeles del simulacro y tus tomas |
 | `numeros-retirados.txt` | Los números que corregiste, para que no vuelvan a salir |
 
+Y los de la búsqueda, que se llenan solos mientras dure:
+
+| | Qué es |
+|---|---|
+| `vacantes.json` | Cada vacante: de dónde salió, con qué CV la mandaste y qué pasó después |
+| `barrido.json` y `barrido/` | Los filtros y las empresas del barrido, y lo que fue encontrando |
+| `correo.json` y `correo/` | Qué cuenta lee el lector de correo, y qué correos ya procesó |
+
 Esa carpeta **está ignorada por git desde el primer commit**. Vas a escribir ahí tu sueldo y las cosas que salieron mal. No se suben ni por accidente.
 
 ## El ejemplo
 
-En [`ejemplo/`](ejemplo/) está el cerebro completo de **Toffy**, una persona inventada: nueve años en operaciones en Chile, sin ninguna base de datos propia, que decía querer ser Product Manager en una empresa grande de tecnología. Los siete pasos, de punta a punta: sus dos CV, sus postulaciones con su tablero, el brief de la primera empresa que la llamó y el simulacro de "cuéntame de ti" en tres tomas.
+En [`ejemplo/`](ejemplo/) está el cerebro completo de **Toffy**, una persona inventada: nueve años en operaciones en Chile, sin ninguna base de datos propia, que decía querer ser Product Manager en una empresa grande de tecnología. Los siete pasos, de punta a punta: su descubrimiento y su voz, sus dos CV, sus postulaciones con su tablero, el brief de la primera empresa que la llamó y el simulacro de "cuéntame de ti" en tres tomas.
+
+Si quieres ver de una lo que el método contesta, abre [`ejemplo/03-que-trabajo-quiero.md`](ejemplo/03-que-trabajo-quiero.md) y baja hasta "Lo que sale de acá". Ahí está lo que se le leyó a Toffy al cerrar ese paso, incluido que el puesto que decía querer al empezar no quedó en ningún carril.
 
 Si quieres ver cómo termina esto antes de instalar nada, empieza por ahí.
 

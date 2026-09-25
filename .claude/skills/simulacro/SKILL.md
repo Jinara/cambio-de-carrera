@@ -7,7 +7,7 @@ description: Paso 7 del método. Entrenamiento para una entrevista, hablado o co
 
 Todo va a `mi-cerebro/entrevistas/<empresa>/`:
 
-- `simulacro.md`: los papeles, la tabla de tomas y el feedback de cada una.
+- `simulacro.md`: los papeles, la tabla de tomas y el feedback de cada una. Sale de `plantillas/entrevista-simulacro.md`, que se copia la primera vez.
 - `tomas-p<N>.txt`: las transcripciones de todas las tomas de la pregunta N, en el orden en que se grabaron.
 
 Los audios van a `herramientas/audios/`, que está en `.gitignore`.

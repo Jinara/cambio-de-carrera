@@ -41,7 +41,7 @@ Mira `mi-cerebro/` y decide:
 
 ## 3. Decirlo y arrancar
 
-Dile en una línea dónde está y qué sigue. Por ejemplo: *"Ya tienes el descubrimiento y la evidencia. Sigue qué trabajo quieres: para eso necesito entre 15 y 30 avisos reales."*
+Dile en una línea dónde está y qué sigue, **diciendo qué recibe al final de ese paso**, no solo cómo se llama. Por ejemplo: *"Ya tienes el descubrimiento y la evidencia. Sigue qué trabajo quieres, que es el paso que te dice a qué puestos postularte y cuánto paga cada uno. Necesito dos o tres títulos que creas que quieres y dos o tres que creas que no, y el barrido trae los avisos."*
 
 Y arranca la skill que toca. No le preguntes si quiere empezar: escribió `/empezar`.
 

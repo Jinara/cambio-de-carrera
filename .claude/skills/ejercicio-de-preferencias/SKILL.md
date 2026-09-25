@@ -27,6 +27,8 @@ Este ejercicio muestra lunes, no títulos. La persona elige entre dos descripcio
 
    ⚠️ **Sin avisos no se hace el ejercicio.** No se inventan los lunes ni se sacan de lo que uno sabe de esos puestos: el ejercicio mide la reacción de la persona al trabajo real que se está ofreciendo hoy en su mercado, y con lunes inventados no mide nada.
 
+3. **Copia `plantillas/03-que-trabajo-quiero.md`** a `mi-cerebro/` si no existe (con permiso, regla 5). Las elecciones se anotan ahí a medida que salen, no al final.
+
 ## Cómo se arman los pares
 
 Las instrucciones completas están en `references/como-armar-los-pares.md`. En corto:

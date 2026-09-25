@@ -13,7 +13,7 @@ Lee `AGENTS.md` antes de empezar. Las reglas 1, 2 y 4 son las de este paso.
 
 Lee `mi-cerebro/01-descubrimiento.md`. Cada afirmación de ahí es una candidata. Las que ya tienen fuente se copian con su fuente. Las marcadas `[SIN FUENTE]` o `[POR CONFIRMAR]` son la lista de trabajo de este paso.
 
-Copia `plantillas/02-evidencia.md` a `mi-cerebro/` si no existe (con permiso, regla 5).
+Copia `plantillas/02-evidencia.md` y `plantillas/numeros-retirados.txt` a `mi-cerebro/` si no existen (con permiso, regla 5). La lista de retirados arranca vacía y se llena sola: **cada vez que un número se corrige acá, el viejo se anota ahí** (regla 1), y los scripts la usan de freno.
 
 ## La primera pregunta: qué camino
 

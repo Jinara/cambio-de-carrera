@@ -77,7 +77,7 @@ Es la regla 3 de `AGENTS.md` y es la que más protege. La estructura está en `r
 
 ### 3. Las respuestas del formulario
 
-Solo si dijo que sí. Cada campo resuelto y listo para pegar, en `05-postulaciones.md`:
+Solo si dijo que sí. Copia `plantillas/05-postulaciones.md` a `mi-cerebro/` la primera vez. Cada campo resuelto y listo para pegar, en `05-postulaciones.md`:
 
 - Los datos que se repiten (nombre, correo, teléfono, LinkedIn) salen de una sola tabla arriba del archivo, para que sean idénticos en todas las postulaciones.
 - Las preguntas abiertas se contestan con la evidencia, en el tono de la regla 9 de `AGENTS.md`, y se pasan por `herramientas/chequear.py` antes de dárselas.

@@ -14,6 +14,7 @@ Lee `AGENTS.md` antes de empezar.
 1. **El correo de quien recluta**, pegado entero. Con fecha y hora.
 2. **El aviso**, que ya debería estar en `mi-cerebro/avisos/` o en el veredicto de `05-postulaciones.md`.
 3. **`06-banco-de-historias.md` y `07-narrativa.md`.** Si no existen, avísale: el brief sale igual, pero sin historias que asignar a cada pregunta. Conviene hacer el paso 5 antes de la entrevista.
+4. **Copia `plantillas/entrevista-brief.md`** a `mi-cerebro/entrevistas/<empresa>/brief.md` para arrancar.
 
 ## En orden
 

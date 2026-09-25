@@ -5,7 +5,7 @@
 | Qué | Para qué | Obligatorio |
 |---|---|---|
 | [Claude Code](https://claude.com/claude-code) o [Codex](https://learn.chatgpt.com/docs/codex/cli) | Todo el método | Uno de los dos |
-| Python 3 | Generar el CV, revisar textos, el barrido de vacantes y el tablero | Para el paso 4 |
+| Python 3 | El barrido de vacantes, generar el CV, revisar textos y el tablero | Desde el paso 3 |
 | Chrome, Chromium, Edge o Brave | Pasar el CV a PDF | Para el paso 4 |
 | pandoc | El CV en DOCX (en Mac no hace falta: se usa `textutil`) | No |
 | `whisper-cli` y `ffmpeg` | El simulacro hablado, y contestar hablando en el paso 1 | Para el paso 7 |
@@ -27,7 +27,9 @@ No hace falta tener todo para arrancar. El paso 1 funciona solo con conversació
 - Si tuviste un negocio o trabajas por tu cuenta: acceso a tus repositorios, bases de datos, tableros y cuentas de anuncios.
 
 **Para el paso 3:**
-- Entre 15 y 30 avisos reales, con link. De puestos que te interesan **y de algunos que crees que no**. Sin esos últimos, el ejercicio solo confirma lo que ya pensabas.
+- Dos o tres títulos de puestos que creas que quieres, y **dos o tres que creas que no**. Nada más que eso, escrito en una línea.
+- Los avisos los trae el barrido solo, en minutos. Antes había que juntar 15 o 30 a mano y era la parte más pesada del método.
+- Si igual tienes avisos guardados que te gustaron, tráelos: se suman a los del barrido.
 
 **Para el paso 6:**
 - El correo de quien te escribió para entrevistarte, pegado entero, con fecha y hora.
@@ -36,7 +38,7 @@ No hace falta tener todo para arrancar. El paso 1 funciona solo con conversació
 
 El paso 1 es el más largo. Es una entrevista de a una pregunta por vez, y conviene hacerla en varias sesiones. El archivo guarda dónde quedaste y `/empezar` retoma desde ahí.
 
-Los pasos 2, 3 y 4 dependen de cuánta evidencia tengas y de cuántos avisos traigas.
+El paso 2 depende de cuánta evidencia tengas a mano. El 3 son un par de horas: el barrido trae los avisos, y los ocho pares se contestan de una sentada. El 4 depende de cuántos carriles te queden.
 
 El 5 conviene hacerlo apenas mandas las primeras postulaciones, sin esperar a que te llamen. El 6 y el 7 se hacen por cada empresa, entre el correo y la entrevista, así que dependen de cuántos días te den.
 
